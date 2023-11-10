@@ -1,0 +1,118 @@
+.RolesTalentPageTabs.nav-tabs {
+  border: none;
+  flex-wrap: nowrap;
+  gap: 20px;
+  margin: 32px 0 24px 0;
+}
+.RolesTalentPageTabs.nav-tabs .nav-link {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  color: #c4c4c4 !important;
+  padding: 0 6px 8px 6px !important;
+  border-bottom: 1px solid rgba(196, 196, 196, 0.5) !important;
+  width: fit-content !important;
+}
+.RolesTalentPageTabs.nav-tabs .nav-link.active {
+  color: #1fa3ff !important;
+  border-bottom: 1px solid #1fa3ff !important;
+}
+/*  */
+
+.RolesModalTabs.nav-tabs {
+  border: none;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin: 24px 0;
+}
+.RolesModalTabs.nav-tabs .nav-link {
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  color: #c4c4c4 !important;
+  padding: 0 40px 3px 40px !important;
+  border-bottom: 1px solid rgba(196, 196, 196, 0.5) !important;
+  width: fit-content !important;
+}
+.RolesModalTabs.nav-tabs .nav-link.active {
+  color: #1fa3ff !important;
+  border-bottom: 1px solid #1fa3ff !important;
+  background-color: transparent !important;
+}
+.statusBarText {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #c4c4c4;
+  margin-bottom: 0;
+}
+.statusColorAndText.active .statusBarText {
+  color: #181818;
+}
+.statusColorAndText {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.statusBar4AppliedRole {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  justify-content: space-between;
+}
+.StatusTabBlueBox {
+  min-height: 50px;
+  background: rgba(31, 163, 255, 0.1);
+  border-radius: 5px;
+  padding: 16px 20px;
+  margin-bottom: 40px;
+}
+.StatusTabBlueBoxP {
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #181818;
+}
+.StatusTabBlueBoxP.asATitle {
+  margin-bottom: 16px;
+}
+.calenderContainer4AppliedRolesPopup {
+  margin-top: 16px;
+}
+.interviewStatusImage {
+  padding: 26px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.interviewStatusImage.confettiBG {
+  background-image: url(../../images/confetti-jobOffer.png);
+  background-position: center;
+  background-size: cover;
+  padding: 26px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0;
+}
+@media (max-width: 767px) {
+  .RolesModalTabs.nav-tabs .nav-link {
+    font-size: 14px !important;
+    line-height: 16px !important;
+    padding: 0 0 8px 0 !important;
+  }
+}
+@media (max-width: 575px) {
+  .statusBar4AppliedRole {
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

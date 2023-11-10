@@ -1,0 +1,68 @@
+.independentBox {
+}
+.PricingGreenBox {
+  background: #ffffff;
+  border: 2px solid #469763;
+  border-radius: 20px;
+  padding: 15px;
+  min-height: 250px !important;
+  text-align: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.pricingBox {
+  background: #ffffff;
+  border: 2px solid #469763;
+  border-radius: 20px;
+  padding: 15px 10px;
+  min-height: 245px !important;
+  height: 95%;
+  margin-bottom: 5%;
+  text-align: center;
+  cursor: pointer;
+}
+.pricingBox.Smaller {
+  min-height: 204px !important;
+}
+.pricingBox.Smaller .roleType4pricing {
+  font-size: 12px;
+  line-height: 14px;
+}
+.blueDisclaimerText {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #1fa3ff;
+  text-align: center;
+  margin-top: 25px;
+  padding: 0 25px;
+  width: 75%;
+}
+.contactUsBtnThatOpenModal a {
+  border: 2px solid #1fa3ff;
+  color: #1fa3ff;
+  cursor: pointer;
+  height: 40px !important;
+  filter: drop-shadow(2px 2px 60px rgba(0, 0, 0, 0.05));
+  border-radius: 10px;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  background-color: transparent;
+  padding: 0 10px;
+  width: fit-content;
+  word-break: break-word;
+  text-transform: capitalize;
+  text-decoration: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+@media (max-width: 1200px) {
+  .blueDisclaimerText {
+    margin-top: 25px;
+    padding: 0 25px;
+    width: 100%;
+  }
+}

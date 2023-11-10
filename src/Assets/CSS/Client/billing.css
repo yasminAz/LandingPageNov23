@@ -1,0 +1,113 @@
+.title20 {
+  color: var(--primary-black, #181818);
+  font-size: 20px;
+  font-family: Raleway;
+  font-weight: 700;
+}
+.blueBox500 {
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: rgba(31, 163, 255, 0.1);
+  box-shadow: 0px 4px 17px 0px rgba(180, 180, 180, 0.16);
+  padding: 16px;
+}
+.greyBoxBilling {
+  height: fit-content;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fafafa;
+  box-shadow: 0px 4px 17px 0px rgba(180, 180, 180, 0.16);
+  padding: 16px;
+}
+.greyBoxBilling hr {
+  margin: 12px 0 !important;
+}
+.greyBoxBilling h3 {
+  color: #383838;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0 !important;
+}
+.greyBoxBilling .agency-box-bold-value {
+  color: #929292;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+.greyBoxBilling .agency-box-bold-value.red {
+  color: #ef1e1e;
+}
+/* Expired Billing */
+
+.expiredBillingContainer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.expiredBillingIllustration {
+  width: 219px;
+  height: 160px;
+}
+.expiredBillingText {
+  color: #181818;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 502px;
+}
+.BillingFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.notEnoughCreditsPopupWarning {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.notEnoughCreditsPopupWarning p {
+  color: #929292;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.NotEnoughCreditsModal {
+  max-width: 1094px !important;
+  width: 1094px !important;
+}
+.BillingCurrentPlanRow {
+  align-items: center;
+  margin-bottom: 16px;
+}
+.BillingCurrentPlanRow .ValueGreyText {
+  margin-bottom: 0;
+}
+.BillingCurrentPlanRow .instruction-text {
+  margin-bottom: 8px;
+}
+@media (max-width: 1200px) {
+  .NotEnoughCreditsModal {
+    max-width: 768px !important;
+    width: 768px !important;
+  }
+}
+@media (max-width: 768px) {
+  .NotEnoughCreditsModal {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+@media (max-width: 575px) {
+  .notEnoughCreditsPopupWarning p {
+    flex: 9;
+  }
+  .notEnoughCreditsPopupWarning svg {
+    flex: 1;
+  }
+}

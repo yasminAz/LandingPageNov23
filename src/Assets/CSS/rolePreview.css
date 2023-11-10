@@ -1,0 +1,76 @@
+.rolePreviewHeader {
+  padding-top: 42px;
+  box-shadow: 0px 1px 17px rgba(180, 180, 180, 0.16);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  z-index: 5;
+}
+.roleNameInRolePreview {
+  color: #181818;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.companyName {
+  color: #181818;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.rolePreviewInfoIconANdText p {
+  color: #929292;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.rolePreviewInfoIconANdText {
+  display: flex;
+  gap: 4px;
+  margin: 16px 0;
+}
+.marginTop4PublicRolePage {
+  margin-top: 264px;
+  margin-bottom: 56px;
+}
+.flexedTextAndBTN {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 16px !important;
+}
+.flexedTextAndBTN h5 {
+  color: #181818;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.flexedTextAndBTN button svg {
+  margin-right: 5px;
+}
+.flexedTextAndBTN button {
+  width: 246px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1200px) {
+  .marginTop4PublicRolePage {
+    margin-top: 310px;
+  }
+}
+@media (max-width: 575px) {
+  .rolePreviewHeader .TabButton {
+    margin-bottom: 16px;
+  }
+  .flexedTextAndBTN {
+    display: block;
+  }
+  .flexedTextAndBTN h5 {
+    margin-bottom: 16px;
+  }
+  .marginTop4PublicRolePage {
+    margin-top: 440px;
+  }
+}

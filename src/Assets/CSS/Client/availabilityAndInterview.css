@@ -1,0 +1,11 @@
+.title24px {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #181818;
+}
+.statusAndDropDown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

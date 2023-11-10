@@ -1,0 +1,250 @@
+.EarnReferral {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 49px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #f66b0e;
+  margin-bottom: 0;
+}
+.TextReferral {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #f66b0e;
+}
+.referralImage {
+  width: 100%;
+  position: relative;
+  top: -24px;
+}
+.referralPaddings24tb35lr {
+  padding: 24px 35px 16px 35px;
+}
+.hideOnMD {
+  display: block;
+}
+.hideOnMD5 {
+  display: none;
+}
+.referralsPcScreen {
+}
+.referralsMobileScreen {
+  display: none;
+}
+.moreOptionsReferralButton {
+  border: none;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: transparent;
+}
+.marginB16on767 {
+  margin-bottom: 0;
+}
+.smallCard {
+  /* width: 327px;
+    height: 158px; */
+  box-shadow: 0px 1px 17px rgba(180, 180, 180, 0.16);
+  border-radius: 24px;
+}
+.smallCard.orange {
+  background-image: url(../../images/CurveLinesWhite.png) !important;
+  background-repeat: no-repeat !important;
+  background: #ff9640;
+  height: calc(50% - 4px);
+}
+.smallCard.white {
+  background-image: url(../../images/CurveLinesOrange.png) !important;
+  background-repeat: no-repeat !important;
+  background: #ffffff;
+  margin-top: 8px;
+  height: calc(50% - 4px);
+}
+.smallWhiteText {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.LargeWhiteText {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 75px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+}
+.smallCardTitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #181818;
+}
+.smallCardText {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #181818;
+}
+.button32Width141 {
+  width: 141px;
+  /* float: right; */
+}
+.button32Width113 {
+  width: 140px;
+  /* float: right; */
+}
+.button32Width78 {
+  width: 78px;
+  /* float: right; */
+}
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+.flexGapReferralCardButtons {
+  display: flex;
+  gap: 13px;
+  justify-content: space-between;
+  position: absolute;
+  width: calc(100% - 32px);
+  bottom: 16px;
+}
+.talentRoleCard {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 17px rgba(180, 180, 180, 0.16);
+  border-radius: 24px;
+  position: relative;
+  margin-bottom: 32px;
+  height: 100%;
+  min-height: 248px;
+}
+.earnCardRight {
+  text-align: right;
+}
+#sendInvitation {
+  margin-bottom: 0;
+}
+.referralCardsDivflexOn992 {
+  height: 100%;
+}
+.adjustMargins4Referral {
+  margin-top: 16px;
+}
+.mobileButtonsDropdown {
+  width: fit-content;
+  height: 100%;
+  float: right;
+}
+.mobileButtonsDropdown .dropdown-menu {
+  padding: 0;
+}
+.mobileButtonsDropdown button {
+  background-color: transparent !important;
+  border: none;
+  padding: 0;
+}
+.mobileButtonsDropdown button::after {
+  display: none;
+}
+.mobileButtonsDropdown .dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: transparent;
+}
+.mobileButtonsDropdown .dropdown-item {
+  background-color: transparent;
+  padding: 10px 16px;
+}
+@media (max-width: 992px) {
+  .adjustMargins4Referral {
+    margin-top: 32px;
+  }
+  .smallCard.orange,
+  .smallCard.white {
+    height: 100% !important;
+    margin-top: 16px !important;
+  }
+  .LargeWhiteText {
+    font-size: 44px;
+    line-height: 45px;
+  }
+  .referralCardsDivflexOn992 {
+    display: flex;
+    gap: 32px;
+  }
+  .referralCardsDivflexOn992 .smallCard {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .smallCard.white {
+    margin-top: 0px;
+  }
+  .EarnReferral {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .TextReferral {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+@media (max-width: 767px) {
+  .hideSpinnerOn767 {
+    display: none;
+  }
+  .marginB16on767 {
+    margin-bottom: 16px;
+  }
+  .referralsPcScreen {
+    display: none;
+  }
+  .referralsMobileScreen {
+    display: block;
+  }
+  .hideOnMD {
+    display: none;
+  }
+  .hideOnMD5 {
+    display: block;
+  }
+}
+@media (max-width: 575px) {
+  .LargeWhiteText {
+    font-size: 30px;
+    line-height: 28px;
+  }
+  .smallWhiteText {
+    font-size: 18px;
+    line-height: 16px;
+  }
+  .smallCard.orange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .smallCard.orange,
+  .smallCard.white {
+    height: unset !important;
+  }
+  .referralCardsDivflexOn992 {
+    display: block;
+  }
+}

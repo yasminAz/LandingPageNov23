@@ -1,0 +1,90 @@
+.FAQ-blackContainer {
+  background: #181818;
+  background-color: #181818;
+  color: #fff;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 65px 0;
+}
+.FAQ-765Width {
+  width: 756px;
+  margin: 0 auto;
+}
+.FAQ-title {
+  color: #fff;
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 48px;
+}
+.FAQ-Accordion .accordion-item {
+  background-color: transparent;
+  border: none;
+}
+.FAQ-Accordion .accordion-button {
+  background-color: transparent;
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 24px 0;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.FAQ-Accordion .accordion-button:focus {
+  z-index: 3;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: none;
+}
+.FAQ-Accordion .accordion-button::after {
+  content: "";
+  background-image: none;
+}
+.FAQ-Accordion .accordion-button.collapsed .accordionArrow {
+  transform: rotate(90deg);
+}
+.FAQ-Accordion .accordion-body {
+  padding: 0 0 24px 0;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.FAQ-Accordion .accordion-item {
+  border-top: 1px solid #fff;
+}
+.FAQ-Accordion .accordion-item:first-of-type {
+  border: none;
+}
+@media (max-width: 992px) {
+  .FAQ-765Width {
+    width: 100%;
+  }
+  .FAQ-title {
+    font-size: 30px;
+  }
+  .FAQ-Accordion .accordion-button {
+    font-size: 20px;
+  }
+  .FAQ-Accordion .accordion-body {
+    font-size: 16px;
+  }
+}
+@media (max-width: 565px) {
+  .FAQ-title {
+    font-size: 34px;
+    margin-bottom: 32px;
+  }
+  .FAQ-Accordion .accordion-button {
+    padding: 16px 0;
+  }
+}

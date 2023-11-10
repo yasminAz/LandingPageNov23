@@ -1,0 +1,67 @@
+.introduction-container {
+  padding: 54px 0 25px 0;
+}
+.introduction-actionButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 56px;
+  margin-bottom: 48px;
+}
+.introduction-actionButtons .Filled56Button {
+  width: 248px;
+}
+.introduction-title {
+  color: #181818;
+  text-align: center;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 31px;
+}
+.introduction-explanatoryText {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 auto;
+  margin-bottom: 38px;
+  max-width: 890px;
+}
+.introduction-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 80px;
+  border-radius: 20px;
+  border: 1px solid #000;
+}
+.introduction-trustedByTitle {
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 0;
+}
+@media (max-width: 565px) {
+  .introduction-container {
+    padding: 110px 0 25px 0;
+  }
+  .introduction-title {
+    font-size: 34px;
+  }
+  .introduction-explanatoryText {
+    font-size: 18px;
+  }
+  .introduction-actionButtons {
+    display: block;
+    margin-bottom: 16px;
+  }
+  .introduction-actionButtons .Filled56Button {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}

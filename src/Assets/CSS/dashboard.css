@@ -1,0 +1,210 @@
+.DashboardStatusBox {
+  height: 113px;
+  background: #ffffff;
+  box-shadow: 0px 4px 17px rgba(180, 180, 180, 0.16);
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 30px 35px;
+  background-size: cover;
+  background-position-y: -20px;
+  background-repeat: no-repeat;
+}
+.DashboardStatusBox.yellow {
+  background-image: url(../images/statYellowBgWave.png);
+}
+.DashboardStatusBox.blue {
+  background-image: url(../images/statBlueBgWave.png);
+}
+.DashboardStatusBox img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+}
+.DashboardStatusBox .statMainTextAndImage {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.DashboardStatusBox .statMainTextAndImage p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #181818;
+  margin-bottom: 0;
+}
+.DashboardStatusBox .counterDivNumber {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  margin-bottom: 0;
+  text-align: center;
+}
+.DashboardStatusBox .counterDivText {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 0;
+}
+.statBoxCounters img {
+  display: none;
+}
+.statText2Showon767 {
+  display: none;
+}
+.takes50OfTheScreen {
+  display: block;
+  height: fit-content;
+  background-size: contain;
+  background-position-y: 0;
+  padding: 16px !important;
+  height: 112px;
+}
+.takes50OfTheScreen img {
+  width: 32px;
+  height: 32px;
+}
+.takes50OfTheScreen .statMainTextAndImage p {
+  font-size: 16px;
+  line-height: 19px;
+}
+.takes50OfTheScreen .statBoxCounters {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  margin-top: 8px;
+  margin-left: 36px;
+}
+.takes50OfTheScreen .statBoxCounters span {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+.whiteInterviewStatusCard {
+  background: #ffffff;
+  box-shadow: 0px 4px 17px rgba(180, 180, 180, 0.16);
+  border-radius: 24px;
+  padding: 16px;
+  height: 112px;
+  overflow: hidden;
+}
+.whiteInterviewStatusCard .ValueGreyText {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.successRoleCreationTitle4Popup {
+  color: #181818;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.successRoleCreationTitle4Popup .bolderr {
+  font-size: 16px;
+  font-weight: 800;
+}
+.olOfsuccessRoleCreationPopup {
+  padding-left: 18px;
+  margin-bottom: 24px;
+}
+.olOfsuccessRoleCreationPopup li {
+  color: #181818;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.animationBG4SuccessRole {
+  background-image: url(../images/animationBGsuccessRoleCreation4Popup.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+/* New job dashboard */
+.JobsDashboard-SubtitleAndButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.JobsDashboard-SubtitleAndButton p {
+  color: #181818;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.JobsDashboard-SubtitleAndButton .Filled32Button {
+  width: 153px;
+}
+@media (max-width: 992px) {
+  .whiteInterviewStatusCard {
+    height: fit-content;
+  }
+  .marginTopOn992 {
+    margin-top: 16px;
+  }
+  .DashboardStatusBox .statMainTextAndImage p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .takes50OfTheScreen.DashboardStatusBox .statMainTextAndImage p {
+    font-size: 10px !important;
+    line-height: 12px !important;
+  }
+  .DashboardStatusBox .counterDivNumber {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .DashboardStatusBox .counterDivText {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .takes50OfTheScreen .statBoxCounters {
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 0;
+  }
+}
+@media (max-width: 767px) {
+  .hideStatOn767 {
+    display: none !important;
+  }
+  .statBoxCounters {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .statBoxCounters img {
+    width: 32px;
+    height: 32px;
+    display: block;
+  }
+  .DashboardStatusBox .counterDivNumber {
+    line-height: 28px;
+  }
+  .statText2Showon767 {
+    display: block;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #181818;
+    margin-bottom: 8px;
+  }
+  .DashboardStatusBox {
+    display: block;
+    height: 96px;
+    background-size: contain;
+    background-position-y: 0;
+  }
+}

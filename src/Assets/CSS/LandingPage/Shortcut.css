@@ -1,0 +1,140 @@
+.shortcutBG {
+  background-image: url(../../images/shortcutBG.png);
+  padding: 56px 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.shortcut-title {
+  color: #181818;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+}
+.shortcut-title strong {
+  display: block;
+}
+.cardWithDarkBottomBorder {
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: #fff;
+  min-height: 450px;
+  border-bottom: 7px solid #000;
+  padding: 36px;
+  position: relative;
+}
+.cardWithDarkBottomBorder .Filled56Button {
+  position: absolute;
+  bottom: 36px;
+  width: calc(100% - 72px);
+}
+.shortcutBoxLabelAndText strong {
+  color: #181818;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.shortcutTitle {
+  color: #181818;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+.shortcutBoxLabel {
+  color: #181818;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+.shortcutBoxBlackTxt {
+  color: #181818;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.shortcutBoxBlueTxt {
+  color: #1fa3ff;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+.shortcut-tileAndActionButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+.shortcut-actionButtons {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.shortcut-actionButtons img {
+  cursor: pointer;
+}
+.fadee.hide {
+  opacity: 0;
+  transform: translate3d(0, 20px, 0); /* ADDED - start x position as -50px */
+  transition: 0.25s all ease-in-out;
+}
+.fadee.show {
+  opacity: 1;
+  transform: translate3d(0, 0, 0); /* ADDED - move x to 0 on hover */
+}
+@media (max-width: 992px) {
+  .cardWithDarkBottomBorder {
+    min-height: 100%;
+  }
+  .cardWithDarkBottomBorder .Filled56Button {
+    position: initial;
+    width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .shortcut-tileAndActionButtons {
+    display: block;
+    margin-bottom: 16px;
+  }
+  .shortcut-title {
+    font-size: 34px;
+  }
+  .shortcutTitle {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .shortcutBoxLabel {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  .shortcut-actionButtons img {
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  .shortcutBoxBlackTxt {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .shortcutBoxBlueTxt {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  .cardWithDarkBottomBorder {
+    padding: 26px;
+  }
+}

@@ -1,0 +1,957 @@
+.EmptyRole {
+  background: #ffffff;
+  border: 2px dashed #929292;
+  border-radius: 24px;
+  height: 255px;
+  width: 100%;
+  height: 139px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.EmptyRole:hover {
+  background: #f3f3f3;
+}
+.EmptyRole img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin-bottom:0;
+}
+.EmptyRole p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #929292;
+  margin-bottom: 0;
+}
+.JobWhiteCard {
+  background: #ffffff;
+  box-shadow: 0px 4px 17px rgba(180, 180, 180, 0.16);
+  border-radius: 24px;
+  padding: 28px 34px;
+  margin-bottom: 16px;
+  position: relative;
+}
+.JobTitleAndActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 23px;
+}
+.Title22px {
+  color: #181818;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.dateAndOptions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+}
+.dateAndOptions.date {
+  color: #929292;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.JobFlowsStatusBoxes {
+  border-radius: 5px;
+  background-color: #fbfafa;
+  color: #929292;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+  min-height: 32px;
+  padding: 10px 30px;
+}
+.JobFlowsStatusBoxes.Update {
+  color: #1fa3ff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.JobFlowsStatusBoxes.Update::before {
+  content: " ";
+  background-color: #1fa3ff;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.roleStatusBadge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  width: 100%;
+  height: 24px;
+  border-radius: 5px;
+}
+.roleStatusBadge.w-140 {
+  width: 140px;
+}
+.roleStatusBadge.orange {
+  color: #f66b0e;
+  background: rgba(246, 107, 14, 0.2);
+}
+.roleStatusBadge.yellow {
+  color: #929292;
+  background: rgba(255, 201, 0, 0.2);
+}
+.roleStatusBadge.green {
+  color: #469763;
+  background: rgba(94, 223, 140, 0.2);
+}
+.roleStatusBadge.red {
+  color: rgba(239, 30, 30, 1);
+  background: rgba(239, 30, 30, 0.15);
+}
+.roleStatusBadge.blue {
+  color: #1fa3ff;
+  background: rgba(31, 163, 255, 0.15);
+}
+.roleHR {
+  color: rgba(196, 196, 196, 0.5);
+  margin: 0 0 8px 0;
+  opacity: 1;
+}
+.roleColBoxWithBorders {
+  border-left: 1px solid rgba(196, 196, 196, 0.5);
+  border-right: 1px solid rgba(196, 196, 196, 0.5);
+  text-align: center;
+}
+.roleStatCounter {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 0;
+}
+.lastRowInRoleCard {
+  align-items: flex-end;
+}
+.mobileVisualTabOpener {
+  display: none;
+}
+.mobileTogglerDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.floatRight {
+  float: right;
+}
+.RoleHeaderMarginBottom {
+  margin-bottom: 16px;
+}
+.closedRoleStatusBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.roleColBoxWithleftBorder {
+  border-left: 1px solid rgba(196, 196, 196, 0.5);
+  text-align: center;
+  width: 100%;
+}
+.roleColBoxWithleftBorder.borderRight {
+  border-right: 1px solid rgba(196, 196, 196, 0.5);
+}
+.ATSRoleNameAndStatus {
+  display: flex;
+  gap: 8px;
+}
+.ATSMultipleMenusDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background: #fafafa;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.ATSMultipleMenusItem {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #929292;
+  height: 40px;
+  border-left: 1px solid rgba(196, 196, 196, 0.5);
+  border-right: 1px solid rgba(196, 196, 196, 0.5);
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+.ATSMultipleMenusItem.selected {
+  font-weight: 700;
+  color: #fff;
+  background-color: #1fa3ff;
+}
+.centeredNoDataGrey.mt-65 {
+  margin-top: 65px;
+}
+.ATSSideWhiteCard {
+  background: #ffffff;
+  box-shadow: 0px 4px 17px rgb(180 180 180 / 16%);
+  border-radius: 24px;
+  padding: 0;
+  margin-bottom: 16px;
+  width: 293px;
+  position: fixed;
+}
+.ATSSideCandidatesTabs.nav-tabs {
+  border: none;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin: 16px 16px 0 16px;
+}
+.ATSSideCandidatesTabs.marginTop24.nav-tabs {
+  justify-content: flex-start;
+  margin: 0 !important;
+  margin-top: 16px;
+}
+.ATSSideCandidatesTabs li {
+  width: 100%;
+}
+.ATSSideCandidatesTabs.marginTop24 li {
+  width: 30%;
+}
+.ATSSideCandidatesTabs.nav-tabs .nav-link {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  color: #c4c4c4 !important;
+  padding: 8px 0 4px 0 !important;
+  border-bottom: 1px solid rgba(196, 196, 196, 0.5) !important;
+  width: 100% !important;
+  margin-right: 0;
+}
+.ATSSideCandidatesTabs.nav-tabs .nav-link.active {
+  color: #1fa3ff !important;
+  border-bottom: 1px solid #1fa3ff !important;
+}
+.ATSSideCandidatesHeightDiv {
+  max-height: 333px;
+  overflow-y: auto;
+}
+.ATSSideCandidatesHeightDiv::-webkit-scrollbar,
+.atsProfileSection::-webkit-scrollbar {
+  height: 4px;
+  border-radius: 10px;
+  width: 6px;
+}
+
+.ATSSideCandidatesHeightDiv::-webkit-scrollbar-track,
+.atsProfileSection::-webkit-scrollbar-track {
+  background: white !important;
+  cursor: e-resize;
+  width: 3px;
+}
+
+/* Handle */
+.ATSSideCandidatesHeightDiv::-webkit-scrollbar-thumb,
+.atsProfileSection::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  width: 3px;
+  background: #92929285;
+  cursor: e-resize;
+}
+
+/* Handle on hover */
+.ATSSideCandidatesHeightDiv::-webkit-scrollbar-thumb:hover,
+.atsProfileSection::-webkit-scrollbar-thumb:hover {
+  background: #929292;
+  width: 3px;
+}
+.candidateCardATS {
+  padding: 16px;
+  cursor: pointer;
+  position: relative;
+}
+.candidateCardATS.selected {
+  background: rgba(255, 201, 0, 0.2);
+}
+.candidateName {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #181818;
+  margin-bottom: 4px;
+}
+.candidateCardATS:hover .candidateName {
+  text-decoration: underline;
+}
+.candidateCardATSSkills {
+  white-space: nowrap;
+  margin-bottom: 8px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.candidateSideProfileImg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #f66b0e;
+}
+.candidateImgAndName {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.candidateCardDateAndActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.candidateCardDateAndActions .ValueGreyText {
+  margin-bottom: 0;
+}
+.textArea {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  border-radius: 5px;
+}
+.ATSBodyWhiteCard {
+  background: #ffffff;
+  box-shadow: 0px 4px 17px rgb(180 180 180 / 16%);
+  border-radius: 24px;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+}
+.ATSBodyHeader {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.YellowButtonGroup {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+.dropDownAsPartOfAButton button {
+  width: 30px !important;
+  min-height: 32px !important;
+  padding: 0;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none !important;
+  outline: 0 !important;
+  background-color: #ffc900 !important;
+  background: #ffc900 !important;
+  color: #181818 !important;
+  border-radius: 0 5px 5px 0;
+}
+.dropDownAsPartOfAButton button:hover {
+  background-color: #ddad01 !important;
+  background: #ddad01 !important;
+}
+.dropDownAsPartOfAButton button::after {
+  content: none;
+}
+.dropDownAsPartOfAButton .dropdown-menu {
+  width: 188px;
+  text-align: center;
+  padding: 0;
+  background: #fafafa;
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  border-radius: 5px;
+}
+.dropDownAsPartOfAButton .dropdown-item {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #929292;
+  padding: 8px;
+  border-bottom: 1px solid rgba(196, 196, 196, 0.5);
+}
+.dropDownAsPartOfAButton .dropdown-item:hover {
+  background: rgba(31, 163, 255, 0.1);
+}
+.dropDownAsPartOfAButton .dropdown-item:last-child {
+  border-bottom: none;
+}
+.dropDownAsPartOfAButton .dropdown-item.selected {
+  color: #1fa3ff;
+}
+.Filled32Button.clientYellow.groupButton {
+  border-radius: 5px 0 0 5px;
+}
+.atsHR {
+  color: rgba(196, 196, 196, 0.5);
+  margin: 8px 0;
+  opacity: 1;
+}
+.atsBodyProfileIMG {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #f66b0e;
+  background-color: #f66b0e;
+}
+.atsBodyProfileCard {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+.fixedATSHeader {
+  position: fixed;
+  width: calc(100% - 277px);
+  background-color: white;
+  z-index: 5;
+  top: 71px;
+  padding-top: 24px;
+}
+.ATSBodyMargin4Fixed {
+  margin-top: 136px;
+}
+.atsProfileSection .row {
+  margin: 0;
+}
+.roleTitleForAllAts {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #929292;
+  margin-bottom: 10px;
+}
+.roleTitleForAllAts:first-letter {
+  text-transform: capitalize;
+}
+.roleTitleForAllAts .underline {
+  text-decoration: underline !important;
+}
+.roleTitleForAllAts .underline:first-letter {
+  text-transform: capitalize;
+}
+.roleHeaderMarkCol .dropDownTransparentFitContent {
+  display: none;
+}
+.displayOn767 {
+  display: none;
+}
+.inputFieldRegularRadio.specialPosition input:checked + label:before,
+.inputFieldRegularRadio.specialPosition input:not(:checked) + label:before {
+  width: 18px;
+  height: 18px;
+}
+.backRoleButton {
+  display: none;
+}
+.commentButtonAndCharCounter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+}
+.commentButtonAndCharCounter .charCounter {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #929292;
+}
+.commentBoxAndButton .textArea {
+  margin-top: 4px;
+  border-radius: 10px;
+  min-height: 56px;
+}
+.commentBoxAndButton {
+  border-bottom: 1px solid rgba(196, 196, 196, 0.5);
+  padding-bottom: 16px;
+}
+.commentBlueBubble {
+  background: rgba(31, 163, 255, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1fa3ff;
+  width: fit-content;
+  margin-bottom: 8px;
+  margin-left: 31px;
+}
+.commentPreviewDivInTheATS {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.commentPreviewDivInTheATS4Buttons {
+  display: flex;
+  gap: 8px;
+}
+.JobOfferBlueBox {
+  background: rgba(31, 163, 255, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+
+  margin-bottom: 8px;
+  margin-left: 31px;
+}
+.atsLikeDislikeSideDivInBodyHead {
+  display: flex;
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0 5px;
+  width: fit-content;
+  float: right;
+}
+.atsLikeDislikeSideDivInBodyHead .dislike {
+  border-right: 1px solid #c4c4c4;
+  padding: 0 5px;
+}
+.atsLikeDislikeSideDivInBodyHead .like {
+  padding: 0 5px;
+}
+.ATSgreyDiv4preferences {
+  background: #fafafa;
+  border-radius: 4px;
+  padding: 17px;
+  margin-bottom: 15px;
+}
+.ATSJobTitleAndYears {
+  display: flex;
+  justify-content: space-between;
+}
+.displayNoneOn767.ATSBody {
+  width: calc(100% - 313px);
+  margin-left: 313px;
+}
+.RoleCardTitleAndStatus {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+}
+.RoleCardTitleAndStatus .roleStatusBadge {
+  width: 142px;
+}
+.openRoleCardHeader-Actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.roleHeaderMarkCol.showOn767 {
+  display: none;
+}
+.RoleStatusInReviewBadge {
+  color: #181818;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 5px;
+  border: 1px solid #ffc900;
+  background: rgba(255, 201, 0, 0.1);
+  height: 24px;
+  min-width: 142px;
+}
+.RoleStatusCurrentlySourcingBadge {
+  color: #181818;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 5px;
+  border: 1px solid #f77a27;
+  background: rgba(247, 122, 39, 0.1);
+  height: 24px;
+  min-width: 142px;
+}
+.RoleStatusFinishedSourcingBadge {
+  color: #181818;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 5px;
+  border: 1px solid #469763;
+  background: rgba(94, 223, 140, 0.1);
+  height: 24px;
+  min-width: 142px;
+}
+.ATSLastColItemsInHeader {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+}
+.RoleDashboardCardStatusGreyBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background: #fafafa;
+  margin: 16px 0 32px 0;
+}
+.RoleDashboardCardStatusGreyBar div {
+  padding: 12px 40px;
+  border-right: 1px solid rgba(196, 196, 196, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.RoleDashboardCardStatusGreyBar div:last-child {
+  border-right: none !important;
+}
+.RoleDashboardCardStatusGreyBar p {
+  color: #929292;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.RoleDashboardCardStatusGreyBar h5 {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.RadioSquovalBox {
+  border-radius: 10px;
+  border: 1px solid #f2f2f2;
+  background: #f8f8f8;
+  padding: 12px;
+  width: 100%;
+  color: #181818;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.RadioSquovalBox:hover {
+  border: 1px solid #1fa3ff;
+}
+.RadioSquovalBox.selected {
+  border: 1px solid #1fa3ff;
+  background: rgba(31, 163, 255, 0.1);
+  box-shadow: 0px 2px 3px 0px rgba(140, 140, 140, 0.25);
+}
+.RadioSquovalBox label {
+  cursor: pointer;
+}
+.DoYouHaveATSmarginBottom16px {
+  margin-bottom: 16px;
+}
+.labelAndInputForJob {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+.labelAndInputForJob .inputField {
+  max-width: 383px;
+  margin-bottom: 0;
+}
+.labelAndInputForJob .LabelForInput {
+  margin-bottom: 0;
+}
+.specialContainer {
+  position: relative;
+  z-index: 99;
+  animation: pulse-animation2 1s;
+  box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.5);
+}
+@keyframes pulse-animation2 {
+  from {
+    box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.2);
+  }
+  to {
+    box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.5);
+  }
+}
+@media (max-width: 1200px) {
+  .fixedATSHeader {
+    width: calc(100% - 55px);
+  }
+  .ATSSideCandidatesTabs.nav-tabs .nav-link {
+    font-size: 14px !important;
+    line-height: 16px !important;
+  }
+  .ATSSideCandidatesTabs.marginTop24 li {
+    width: 100%;
+  }
+  .ATSSideCandidatesHeightDiv {
+    max-height: 243px;
+  }
+}
+@media (max-width: 992px) {
+  .RoleDashboardCardStatusGreyBar {
+    padding: 8px 10px;
+  }
+  .RoleDashboardCardStatusGreyBar div {
+    padding: 0;
+    border-right: none;
+    justify-content: space-between;
+  }
+  .ATSBodyMargin4Fixed {
+    margin-top: 90px;
+  }
+  .RoleHeaderMarginBottom {
+    margin-bottom: 0px;
+  }
+  .fixedATSHeader {
+    width: calc(100% - 24px);
+  }
+  .fixedATSHeader {
+    padding-top: 8px;
+  }
+  .fixedATSHeader .titleDropDown button {
+    font-size: 15px;
+    line-height: normal;
+  }
+  .commentBlueBubble {
+    margin-left: 0;
+  }
+  .commentPreviewDivInTheATS {
+    display: block;
+  }
+  .ATSSideCandidatesTabs.nav-tabs .nav-link {
+    font-size: 10px !important;
+    line-height: 12px !important;
+    padding-bottom: 6px !important;
+  }
+  .ATSMultipleMenusItem {
+    font-size: 10px;
+    line-height: 12px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .labelAndInputForJob {
+    display: block;
+  }
+  .labelAndInputForJob .inputField {
+    max-width: 100%;
+  }
+  .labelAndInputForJob .LabelForInput {
+    margin-bottom: 8px;
+    display: block;
+  }
+  .JobFlowsStatusBoxes {
+    margin-bottom: 16px;
+  }
+  .DoYouHaveATSmarginBottom16px {
+    margin-bottom: 0px;
+  }
+  .roleHeaderMarkCol.showOn767 {
+    display: block;
+  }
+  .RoleCardTitleAndStatus {
+    display: block;
+  }
+  .openRoleCardHeader-Actions {
+    justify-content: space-between;
+  }
+  .ATSBodyMargin4Fixed {
+    margin-top: 0;
+  }
+  .fixedATSHeader {
+    padding-top: 0;
+    position: initial;
+  }
+  .ATSSideWhiteCard.removeBorderOn767 {
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    position: initial;
+    width: 100%;
+  }
+  .ATSBodyWhiteCard.removeBorderOn767 {
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+  }
+  .backRoleButton {
+    position: absolute;
+    left: 15px;
+    cursor: pointer;
+    display: block;
+  }
+  .roleModal .modal-fullscreen {
+    height: fit-content;
+  }
+  .roleModal .modal-content {
+    border-radius: 0 !important;
+  }
+  .modal-content .ATSBodyWhiteCard {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .atsProfileSection {
+    height: 100%;
+  }
+  .candidateCardATS.selected {
+    background: transparent;
+  }
+  .ATSSideCandidatesHeightDiv {
+    max-height: 100%;
+    overflow-y: auto;
+  }
+  .ATSSideCandidatesTabs.nav-tabs .nav-link {
+    font-size: 14px !important;
+    line-height: 16px !important;
+    padding-bottom: 8px;
+  }
+  .blueFilteringButton.displayOn767 button {
+    width: 100%;
+  }
+  .ATSMultipleMenusDiv {
+    display: none;
+  }
+  .RoleHeaderMarginBottom {
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .displayOn767 {
+    display: block;
+  }
+  .displayNoneOn767 {
+    display: none;
+  }
+  .roleHeaderMarkCol {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .roleHeaderMarkCol .dropDownTransparentFitContent {
+    display: block;
+  }
+  .ATSRoleNameAndStatus {
+    display: block;
+  }
+  .RoleStatusFinishedSourcingBadge,
+  .RoleStatusCurrentlySourcingBadge,
+  .RoleStatusInReviewBadge {
+    margin-bottom: 8px;
+    width: fit-content;
+  }
+  .floatRight {
+    float: unset;
+  }
+  .closedRoleStatusBox {
+    display: block;
+  }
+  .roleColBoxWithleftBorder {
+    display: flex;
+    justify-content: space-between;
+    border: none !important;
+  }
+  .roleColBoxWithleftBorder p {
+    text-align: start;
+  }
+  .roleStatusBadge {
+    margin-bottom: 8px;
+  }
+
+  .JobWhiteCard {
+    padding: 16px 19px;
+  }
+  .mobileVisualTabOpener {
+    display: block;
+    margin-top: 8px;
+  }
+  .roleColBoxWithBorders {
+    border: none !important;
+    display: flex;
+    justify-content: space-between;
+  }
+  .paddingBottomOn767 {
+    padding-bottom: 16px;
+  }
+}
+@media (max-width: 575px) {
+  .Title22px {
+    max-width: 130px;
+  }
+  .JobTitleAndActions {
+    gap: 50px;
+  }
+  .commentButtonAndCharCounter {
+    display: block;
+  }
+  .commentButtonAndCharCounter > * {
+    display: block;
+  }
+  .roleStatusBadge {
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .charCounter {
+    margin-bottom: 8px;
+    text-align: center;
+    width: 100%;
+  }
+  .newLineOn575 {
+    display: block;
+    margin-top: 4px;
+  }
+  .makeFloatingOn575 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

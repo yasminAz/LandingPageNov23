@@ -1,0 +1,54 @@
+.imageAndListLargeContainer {
+  margin: 85px 0 100px 0;
+  background-image: url(../../images/imageAndListBG.png);
+  background-size: 800px;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+.imageAndListTitleBlack {
+  color: #000;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 42px;
+}
+.imageAndList-List {
+  padding: 0;
+  margin-bottom: 60px;
+}
+.imageAndList-List li {
+  display: flex;
+  gap: 18px;
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 35px;
+  align-items: flex-start;
+}
+@media (max-width: 1208px) {
+  .imageAndListLargeContainer {
+    background-size: 600px;
+  }
+}
+@media (max-width: 992px) {
+  .imageAndListLargeContainer {
+    background-size: 400px;
+  }
+}
+@media (max-width: 767px) {
+  .imageAndListLargeContainer {
+    background-size: 200px;
+  }
+}
+@media (max-width: 575px) {
+  .imageAndListLargeContainer {
+    background-image: none;
+  }
+  .imageAndListTitleBlack {
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,54 @@
+.talentRoleCardCompanyName {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #181818;
+  margin-bottom: 8px;
+}
+.floatingIconInCard {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+.talentDashboardReferralOrangeBox {
+  background: #ff9640;
+  border-radius: 24px;
+  padding: 24px;
+  background-image: url(../../images/talentDashboardOrangeSectionBG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 16px;
+}
+.talentDashboardReferralOrangeBox h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.talentRoleCard.fixMarginsOnDashboard {
+  margin-bottom: 0;
+}
+.centeredNoDataGrey.m-b40 {
+  margin-bottom: 40px;
+}
+@media (max-width: 992px) {
+  .talentDashboardReferralOrangeBox .col-lg-3 {
+    margin-bottom: 16px;
+  }
+  .talentDashboardReferralOrangeBox h3 {
+    font-size: 30px;
+    line-height: 32px;
+    margin-bottom: 16px;
+  }
+  .flexOn992 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 575px) {
+  .talentDashboardReferralOrangeBox h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}

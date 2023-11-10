@@ -1,0 +1,99 @@
+.teamsCarousel-div {
+  background: #f4ebff;
+  padding: 71px 0 43px 0;
+}
+.teamsCarousel-title {
+  color: #181818;
+  text-align: center;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 67px;
+}
+.teamsCard {
+  border-radius: 27px;
+  background: #fff;
+  padding: 32px;
+  text-align: start;
+}
+.teamsCard-teamLogo {
+  height: 65px;
+  width: auto;
+  margin-bottom: 24px;
+  text-align: start;
+}
+.teamsCard-commentText {
+  color: #181818;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  word-break: break-word;
+  margin-bottom: 16px;
+  text-align: start;
+}
+.teamsCard-teamCommenterImage {
+  border-radius: 54.836px;
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+  text-align: start;
+}
+.teamsCard-teamCommenterImageAndName {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.teamsCard-teamCommenterPosition {
+  color: #929292;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+  text-align: start;
+}
+.teamsCard-teamCommenterName {
+  color: #181818;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+  text-align: start;
+}
+.teamsCarousel-div .carousel-control-next,
+.teamsCarousel-div .carousel-control-prev {
+  position: initial;
+  display: inline-block;
+  width: fit-content;
+  margin: 40px 21px 0 21px;
+  opacity: 1;
+}
+.teamsCarousel-div .carousel {
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .teamsCard {
+    margin-bottom: 16px;
+  }
+  .teamsCarousel-div .carousel-control-next,
+  .teamsCarousel-div .carousel-control-prev {
+    position: absolute;
+    top: -182px;
+  }
+}
+@media (max-width: 575px) {
+  .teamsCarousel-div .carousel-control-next,
+  .teamsCarousel-div .carousel-control-prev {
+    top: -130px;
+  }
+  .teamsCarousel-div .carousel-inner {
+    margin-top: 40px;
+  }
+  .teamsCarousel-title {
+    font-size: 34px;
+  }
+}

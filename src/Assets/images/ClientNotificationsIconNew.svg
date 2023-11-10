@@ -1,0 +1,19 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url76923(#clip0_9125_380)">
+<path d="M12 22C13.1 22 14 21.1 14 20H10C10 21.1 10.9 22 12 22ZM18 16V11C18 7.93 16.37 5.36 13.5 4.68V4C13.5 3.17 12.83 2.5 12 2.5C11.17 2.5 10.5 3.17 10.5 4V4.68C7.64 5.36 6 7.92 6 11V16L4 18V19H20V18L18 16ZM16 17H8V11C8 8.52 9.51 6.5 12 6.5C14.49 6.5 16 8.52 16 11V17Z" fill="#929292"/>
+<circle cx="19.3845" cy="18.4616" r="3.26923" fill="#FFC900" stroke="#F77A27"/>
+<g filter="url(#filter0_f_9125_380)">
+<circle cx="19.3845" cy="18.4616" r="2.76923" fill="#FFC900"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_9125_380" x="11.6152" y="10.6924" width="15.5391" height="15.5386" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2.5" result="effect1_foregroundBlur_9125_380"/>
+</filter>
+<clipPath id="clip0_9125_380">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,707 @@
+.pipelineTabsBox {
+  border: 1px solid #c4c4c4;
+  border-radius: 20px;
+  border-top: none;
+}
+.client-pipeline-progress-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #c4c4c4;
+  border-radius: 50px;
+  min-height: 40px;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+.client-pipeline-progress-bar li button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #92969d !important;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0 20px;
+}
+.client-pipeline-progress-bar li button.nav-link.active {
+  background-color: rgba(249, 200, 2, 0.2);
+  font-weight: 700;
+  color: #f9c802 !important;
+  border-radius: 90px;
+}
+.pipelineMenu {
+  overflow: hidden;
+}
+.pipelineSideMenuTitles {
+  padding: 20px;
+  border-bottom: 1px solid #c4c4c4;
+}
+.pipelineMenuTitle {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 33px;
+  color: #49505b;
+}
+.pipelineMenuSubtitle {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+  color: #e66c0d;
+}
+.pipelineSideMenuCandidateBox {
+  border-bottom: 1px solid #c4c4c4;
+  padding: 20px;
+  cursor: pointer;
+}
+.pipelineSideMenuCandidateBox.activeBox {
+  border-bottom: 1px solid #e57128;
+  background-color: rgba(229, 113, 40, 0.18);
+}
+.pipelineMenuProfilePicture {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-right: 12px;
+}
+.positionP {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  margin-bottom: 0;
+}
+.NO-SIDE-PADDING {
+  padding-left: 0;
+  padding-right: 0;
+}
+.pipelineCandidatesTitleSection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.pipelineCandidatesTitleSection h3 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  color: #000;
+  margin: 0;
+}
+.pipelineCandidatesTitleSection .positionP {
+  font-size: 16px !important;
+  line-height: 18px !important;
+}
+.pipelineCandidatesActionsSection {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnLG.dropdown-toggle {
+  background-color: #1fa3ff !important;
+  color: white !important;
+}
+.pipelineMainContainerPadding {
+  padding: 0 30px 0 50px;
+}
+.big-Paragraph {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.candidateSmallLabel {
+  display: block;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.candidate-detail-box {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  word-break: break-word;
+}
+.candidate-detail-box.link {
+  color: #1fa3ff;
+  text-decoration: underline;
+}
+.candidatesFooterActionButtons {
+  margin: 30px 0;
+}
+.candidatesFooterActionButtons button {
+  margin-right: 20px;
+  min-width: 125px;
+  margin-bottom: 10px;
+}
+.pipelineDetailsSection {
+  margin: 30px 0;
+}
+.pipelineDetailsSection-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #49505b;
+  margin-bottom: 10px;
+}
+.pipelineDetailsLabel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  margin-right: 20px;
+  display: inline-block;
+  color: #49505b;
+}
+.pipelineDetailsGreyText {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #49505b;
+  display: inline-block;
+  margin: 0;
+}
+.pipelineSkillsDiv {
+  display: inline-block;
+}
+.icon-size {
+  width: 25px;
+  height: 25px;
+}
+.next2eachOther {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.next2eachOther > * {
+  margin-right: 15px;
+  margin-bottom: 0 !important;
+}
+.trakingBox {
+  border-radius: 30px;
+  padding: 15px;
+  margin-top: 15px;
+}
+.trakingBox.yellow {
+  background: #fef4cc;
+  min-height: 223px;
+}
+.trakingBox.green {
+  background: #edf5ef;
+  cursor: pointer;
+}
+.trakingBox.green0Candidates {
+  background: rgba(70, 151, 99, 0.2);
+}
+.greyLink {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-decoration-line: underline;
+  color: #49505b;
+}
+.greyLink:hover {
+  color: #414851;
+}
+
+.trakingBoxContent {
+  padding: 8px 0;
+}
+.trakingBoxContent .title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #49505b;
+  margin-bottom: 15px;
+}
+.trakingBoxContent .boxContent {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #49505b;
+  padding: 0 50px;
+}
+.talentBox {
+  border: 1px solid #c4c4c4;
+  border-radius: 30px;
+  padding: 15px;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.pipelineMenu .talentBox {
+  cursor: pointer;
+  margin-bottom: 10px;
+  height: fit-content;
+}
+.talentBox.Active {
+  background-color: rgba(31, 163, 255, 0.1);
+}
+.imgAndName {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.imgAndName img {
+  margin-right: 15px;
+  object-fit: cover !important;
+  width: 25px !important;
+  height: 25px !important;
+  border-radius: 50px !important;
+}
+.imgAndName span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #49505b;
+}
+.talentsOrdering {
+  display: flex;
+}
+.informativeMsgGrey {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #49505b;
+}
+.d-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h-inherit {
+  height: inherit;
+}
+.name-and-buttons {
+  display: flex;
+  align-items: center;
+}
+.candidateBoxTitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.sideMenuScrolly {
+  padding: 10px;
+  height: 60vh;
+  overflow-y: scroll;
+}
+.pipelineTabsContentHeight {
+  height: 65vh;
+  overflow-y: scroll;
+}
+.cl-project-info-applications-table-container .candidate-detail-box {
+  margin: 0;
+  padding: 5px 0;
+}
+.borderRight {
+  border-right: 1px solid rgb(152, 148, 148);
+}
+.borderRightNone {
+  border-right: none;
+}
+.borderLeft {
+  border-left: 1px solid rgb(152, 148, 148);
+}
+.borderBottom {
+  border-bottom: 1px solid rgb(152, 148, 148);
+}
+.borderBottomNone {
+  border-bottom: none;
+}
+.borderTop {
+  border-top: 1px solid rgb(152, 148, 148);
+}
+.circleBtn {
+  width: 30px;
+  height: 30px;
+  filter: drop-shadow(2px 2px 60px rgba(0, 0, 0, 0.05));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: none;
+  margin-left: 15px;
+}
+.circleBtn img {
+  width: 20px;
+  height: 20px;
+}
+.circleBtn.Blue {
+  background: rgba(31, 163, 255, 0.2);
+  color: rgb(31, 163, 255);
+}
+.circleBtn.Green {
+  background: rgba(70, 151, 99, 0.2);
+  color: rgb(70, 151, 99);
+}
+.circleBtn.Red {
+  background: rgba(214, 73, 44, 0.2);
+  color: rgb(214, 73, 44);
+}
+.contactIMGDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  margin-bottom: 10%;
+}
+.contactIMGDiv img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 100px;
+}
+.contactBoxBlackBorder {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+}
+.contactBoxBlackBorder h5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.contactBoxBlackBorder p {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  word-break: break-word;
+}
+.supersmall {
+  font-size: 12px !important;
+  line-height: 14px !important;
+}
+.smallerMargins {
+  margin: 5px 0;
+}
+.showOnHOVERR {
+  display: none;
+}
+.regions {
+  position: relative;
+}
+.regions:hover .showOnHOVERR {
+  display: block;
+  position: absolute;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.cl-SuccessGreen-Title {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 61px;
+  text-align: center;
+  color: #469763;
+  margin-bottom: 25px;
+}
+.cl-SuccessGreen-text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #469763;
+  margin-bottom: 25px;
+}
+.modalCenterYellowBTN {
+  min-width: 220px;
+  height: 40px;
+  filter: drop-shadow(2px 2px 60px rgba(0, 0, 0, 0.05));
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  background: #f9c802;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  justify-content: center;
+}
+.modalCenterRedBTN {
+  min-width: 120px;
+  height: 30px;
+  filter: drop-shadow(2px 2px 60px rgba(0, 0, 0, 0.05));
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  background: #d6492c;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  justify-content: center;
+}
+.modalCentersmallYellowBTN {
+  min-width: 120px;
+  height: 30px;
+  filter: drop-shadow(2px 2px 60px rgba(0, 0, 0, 0.05));
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  background: #f9c802;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  justify-content: center;
+}
+.modalCenterBlueBorderBTN {
+  min-width: 120px;
+  height: 30px;
+  filter: drop-shadow(2px 2px 60px rgba(0, 0, 0, 0.05));
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  background: transparent;
+  border-radius: 10px;
+  color: #1fa3ff;
+  border: 1px solid #1fa3ff;
+  justify-content: center;
+  margin-right: 30px;
+}
+.btnss {
+  display: flex;
+  align-items: center;
+}
+.btnss > * {
+  min-width: 100px !important;
+  width: fit-content;
+  height: 30px !important;
+  margin: 0 30px;
+}
+.greenDropDown .btnLG {
+  width: 100% !important;
+}
+.cl-RejectCandidate-Title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #d6492c;
+  margin-bottom: 5px;
+}
+.cl-RejectCandidate-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.small4Modal .checkbox-label-pref {
+  font-size: 12px !important;
+  line-height: 14px !important;
+  height: 30px !important;
+  width: fit-content !important;
+  padding: 0 10px !important;
+  margin: 0px 10px 10px 0 !important;
+}
+.small4Modal .candidateModalSmallBoldLabels,
+.small4Modal .ag-user-signup-label {
+  font-weight: 600;
+  font-size: 14px !important;
+  line-height: 16px !important;
+}
+.small4Modal .ag-user-signup-field {
+  height: 30px;
+  font-size: 12px !important;
+  line-height: 14px !important;
+}
+.small4Modal .ag-user-signup-field::placeholder {
+  font-size: 12px !important;
+  line-height: 14px !important;
+}
+@media (max-width: 1300px) {
+  .btnss > * {
+    margin: 0 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .fix-1200 {
+    height: calc(100% - 10px) !important;
+  }
+  .talentBox {
+    margin-bottom: 10px;
+    height: auto;
+  }
+  .pipelineCandidatesActionsSection {
+    margin-top: 15px;
+  }
+  .pipelineMainContainerPadding {
+    padding: 5px;
+  }
+  .pipelineSideMenuCandidateBox {
+    padding: 5px;
+  }
+  .pipelineMenuProfilePicture.smalleronxs {
+    width: 25px !important;
+    height: 25px !important;
+  }
+}
+@media (max-width: 992px) {
+  .btnss {
+    margin-top: 10px;
+  }
+  .btnss > * {
+    min-width: unset !important;
+    margin: 0;
+    margin-right: 5px;
+  }
+  .name-and-buttons {
+    display: block;
+  }
+  .borderRight {
+    border-right: none;
+  }
+  .borderBottom {
+    border-bottom: none;
+  }
+  .pipelineTabsBox {
+    border-radius: 52px;
+  }
+}
+@media (max-width: 767px) {
+  .cl-SuccessGreen-Title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 15px;
+  }
+  .cl-SuccessGreen-text {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+  .modalCenterYellowBTN {
+    min-width: fit-content;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .imgAndName {
+    justify-content: center;
+  }
+  .imgAndName span {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .imgAndName img {
+    display: none;
+  }
+  .talentBox {
+    padding: 5px;
+  }
+  .talentBox hr,
+  .pipelineSkillsDiv {
+    display: none;
+  }
+  .pipelineSkillsDiv.show {
+    display: inline-block;
+  }
+
+  .pipelineMenuTitle {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .pipelineMenuSubtitle {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .pipelineMenuProfilePicture {
+    width: 25px !important;
+    height: 25px !important;
+    margin-right: 5px;
+    display: block;
+  }
+  .hide-on-xs {
+    display: none;
+  }
+  .pipelineSideMenuCandidateBox {
+    padding: 10px;
+  }
+  .pipelineMainContainerPadding {
+    padding: 0 15px 0 0;
+  }
+}
+@media (max-width: 575px) {
+  .cl-SuccessGreen-Title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .sideMenuScrolly {
+    height: 15vh;
+  }
+  .cl-project-info-applications-table-container .col-lg-6 {
+    border-bottom: 1px solid rgb(152, 148, 148);
+  }
+  .imgAndName img {
+    display: inline-block;
+  }
+  .pipelineCandidatesTitleSection {
+    margin-bottom: 10px;
+  }
+  .name-and-buttons {
+    display: block;
+  }
+  .pipelineCandidatesTitleSection h3 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .client-pipeline-progress-bar {
+    display: block;
+    height: 100%;
+    margin: 15px 0;
+  }
+
+  .b-t-seperater {
+    border-top: 3px solid #f9c802;
+  }
+  .candidatesFooterActionButtons button {
+    margin-bottom: 5px;
+  }
+  .client-pipeline-progress-bar li button {
+    font-size: 16px !important;
+    padding: 0;
+  }
+  .btnss > * {
+    margin: 0 10px 10px 0;
+    display: inline-block;
+  }
+  .btnss {
+    display: block;
+  }
+}

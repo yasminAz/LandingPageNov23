@@ -1,0 +1,1947 @@
+/* *:first-letter {
+  text-transform: capitalize;
+} */
+body {
+  font-feature-settings: "pnum" on, "lnum" on !important;
+}
+.LabelForTerms {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-indent: 5px;
+  margin-bottom: 24px;
+  color: #181818;
+}
+.Label4inputs {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #181818;
+  margin-bottom: 8px;
+}
+.inputfieldTimePicker {
+  padding: 0 !important;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.inputfieldTimePicker .component {
+  display: inline-block !important;
+  padding: 0 !important;
+  margin-right: 0px !important;
+  flex: 1;
+}
+.inputfieldTimePicker #start-component {
+  margin-right: 12px !important;
+}
+
+.inputfieldTimePicker select {
+  border: 1px solid rgba(196, 196, 196, 0.5) !important;
+  border-radius: 8px !important;
+  width: 100% !important;
+  height: 32px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #181818;
+  padding: 0 !important;
+  background-color: white !important;
+  text-align: center;
+}
+.inputfieldTimePicker .error {
+  padding: 0 !important;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ef1e1e !important;
+  margin: 8px 0;
+}
+
+.inputField {
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  border-radius: 8px;
+  width: 100% !important;
+  height: 32px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #181818;
+  margin-bottom: 16px;
+  padding: 0 20px;
+  background-color: white;
+}
+.inputField.height40 {
+  border-radius: 5px;
+  border: 1px solid #181818;
+  height: 40px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #181818;
+  margin-bottom: 16px;
+  padding: 0 20px;
+  background-color: white;
+}
+.inputField:disabled {
+  background-color: rgba(196, 196, 196, 0.5);
+  color: #929292;
+}
+.inputField:disabled::placeholder {
+  color: #929292;
+}
+.inputField:focus,
+.inputField:focus-visible,
+.inputFieldPhoneNumber input:focus,
+.inputFieldPhoneNumber input:focus-visible,
+.inputField-ReactSelect .css-1pahdxg-control:hover,
+.inputField-ReactSelect .css-1pahdxg-control:active,
+.inputfieldTimePicker select:focus,
+.inputfieldTimePicker select:focus-visible {
+  border: 1px solid rgba(31, 163, 255, 1) !important;
+  outline: none !important;
+}
+.inputField.error,
+.inputFieldPhoneNumber.error,
+.inputField-ReactSelect.error .css-1pahdxg-control,
+.inputField-ReactSelect.error .css-1s2u09g-control,
+.inputfieldTimePicker.error select {
+  border: 1px solid #ef1e1e !important;
+}
+.inputField::placeholder {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #929292;
+}
+.inputField.textArea {
+  padding: 10px 20px;
+  resize: none;
+  min-height: 80px;
+}
+.passwordField {
+  position: relative;
+}
+.showHidePassIcon {
+  position: absolute;
+  right: 14px;
+  top: 15px;
+  cursor: pointer;
+}
+.RedErrorMessage {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ef1e1e;
+  position: relative;
+  top: -12px;
+  margin-bottom: 0;
+}
+
+.indent20 {
+  text-indent: 20px;
+}
+
+.signupWithBTNDevSign {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #181818;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #181818;
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.signupWithBTNDevSign:hover {
+  background: rgba(243, 243, 243, 1);
+}
+.signupWithBTNDevSign img {
+  margin-right: 4px;
+}
+.inputField-ReactSelect .css-1s2u09g-control:after {
+  content: url("../images/dropdown.svg");
+  position: absolute;
+  top: 8px;
+  right: 9px;
+  width: 14px;
+  height: 14px;
+}
+
+.inputField-ReactSelect .css-1insrsq-control:after {
+  content: url("../images/dropdown.svg");
+  position: absolute;
+  top: 8px;
+  right: 9px;
+  width: 14px;
+  height: 14px;
+}
+.inputField-ReactSelect .css-1pahdxg-control:after {
+  content: url("../images/close-dropdown.svg");
+  position: absolute;
+  top: 8px;
+  right: 9px;
+  width: 14px;
+  height: 14px;
+}
+.inputField-ReactSelect.isMulti .css-1s2u09g-control:after {
+  content: url("../images/searchIcon.svg");
+  position: absolute;
+  top: 8px;
+  right: 9px;
+  width: 14px;
+  height: 14px;
+}
+.inputField-ReactSelect.isMulti .css-1insrsq-control:after {
+  content: url("../images/searchIcon.svg");
+  position: absolute;
+  top: 8px;
+  right: 9px;
+  width: 14px;
+  height: 14px;
+}
+.inputField-ReactSelect.isMulti .css-1pahdxg-control:after {
+  content: url("../images/searchIcon.svg");
+  position: absolute;
+  top: 8px;
+  right: 9px;
+  width: 14px;
+  height: 14px;
+}
+
+.inputField-ReactSelect .css-1s2u09g-control,
+.inputField-ReactSelect .css-1pahdxg-control {
+  border: 1px solid rgba(196, 196, 196, 0.5) !important;
+  border-radius: 8px !important;
+  width: 100% !important;
+  min-height: 32px !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  color: #181818 !important;
+  margin-bottom: 16px !important;
+  background-color: white !important;
+  box-shadow: none !important;
+  padding: 0 0 0 20px;
+}
+
+.inputField-ReactSelect.mb-8 .css-1s2u09g-control,
+.inputField-ReactSelect.mb-8 .css-1pahdxg-control,
+.inputField-ReactSelect.mb-8 .css-1insrsq-control {
+  margin-bottom: 8px !important;
+}
+.inputField-ReactSelect .css-1insrsq-control {
+  border: 1px solid rgba(196, 196, 196, 0.5) !important;
+  border-radius: 8px !important;
+  width: 100% !important;
+  min-height: 32px !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  color: #929292 !important;
+  margin-bottom: 16px !important;
+  background-color: rgba(196, 196, 196, 0.5) !important;
+  box-shadow: none !important;
+  padding: 0 0 0 20px;
+}
+.inputField-ReactSelect.height40 .css-1s2u09g-control,
+.inputField-ReactSelect.height40 .css-1pahdxg-control,
+.inputField-ReactSelect.height40 .css-1insrsq-control {
+  border-radius: 5px;
+  border: 1px solid #181818 !important;
+  background: #fff;
+  min-height: 40px !important;
+}
+.inputField-ReactSelect.height40 .css-1s2u09g-control:after,
+.inputField-ReactSelect.height40 .css-1pahdxg-control:after {
+  top: 12px !important;
+}
+.inputField-ReactSelect .css-1pahdxg-control,
+.inputField-ReactSelect.height40 .css-1pahdxg-control {
+  border: 1px solid rgba(31, 163, 255, 1) !important;
+}
+.inputField-ReactSelect .css-1rhbuit-multiValue {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  position: relative;
+  margin: 0;
+}
+.inputField-ReactSelect .css-2613qy-menu {
+  border: 1px solid rgba(31, 163, 255, 1) !important;
+}
+.inputField-ReactSelect .css-1f5mqn-menu {
+  z-index: 5;
+}
+.inputField-ReactSelect .css-xb97g8:hover {
+  background-color: transparent;
+  /* color: #DE350B; */
+}
+.inputField-ReactSelect .css-319lph-ValueContainer,
+.inputField-ReactSelect .css-g1d714-ValueContainer,
+.inputField-ReactSelect .css-1gtu0rj-indicatorContainer {
+  padding: 0;
+}
+
+.inputField-ReactSelect .css-1okebmr-indicatorSeparator,
+.inputField-ReactSelect .css-tlfecz-indicatorContainer {
+  display: none;
+}
+.inputField-ReactSelect .css-xb97g8 .css-tj5bde-Svg {
+  color: #ef1e1e;
+}
+.inputField-ReactSelect .css-1rhbuit-multiValue .optionLabel {
+  padding-right: 30px !important;
+}
+.inputField-ReactSelect .css-1gtu0rj-indicatorContainer svg {
+  display: none;
+}
+
+.react-datepicker-popper[data-placement^="bottom"]
+  .react-datepicker__triangle::after,
+.react-datepicker-popper[data-placement^="bottom"]
+  .react-datepicker__triangle::before {
+  display: none !important;
+}
+.react-datepicker-popper[data-placement^="bottom"] {
+  padding: 0 !important;
+}
+.react-datepicker__header {
+  background-color: #fff !important;
+  border-bottom: none !important;
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+  padding: 16px 16px 0 16px !important;
+  font-family: "Raleway", sans-serif !important;
+  font-feature-settings: "pnum" on, "lnum" on !important;
+}
+.react-datepicker__day-names {
+  margin-bottom: 5px !important;
+}
+.react-datepicker__month {
+  margin: 0 !important;
+}
+.react-datepicker__month .react-datepicker__month-text,
+.react-datepicker__month .react-datepicker__quarter-text {
+  margin: 16px 20px !important;
+  width: fit-content !important;
+  padding: 5px !important;
+}
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__month-text--keyboard-selected,
+.react-datepicker__quarter-text--keyboard-selected,
+.react-datepicker__year-text--keyboard-selected {
+  background-color: #1fa3ff !important;
+}
+.react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow,
+.react-datepicker__navigation-icon::before {
+  border-color: #1fa3ff !important;
+  top: 21px !important;
+}
+.react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle {
+  display: none !important;
+}
+.react-datepicker__day--today,
+.react-datepicker__month-text--today,
+.react-datepicker__quarter-text--today,
+.react-datepicker__year-text--today {
+  background: rgba(31, 163, 255, 0.1);
+  border-radius: 5px;
+  font-weight: 500 !important;
+}
+.classic12Link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration-line: underline;
+  color: #1fa3ff;
+  cursor: pointer;
+}
+.clipboardTostie {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  border-radius: 10px !important;
+}
+.classic12Link:hover {
+  color: #1fa3ff;
+}
+.SystemStartFormTitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #181818;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: flex-end;
+}
+.SystemStartFormTitle a {
+  color: #1fa3ff;
+}
+.SystemStartFormTitle a:hover {
+  color: #1fa3ff;
+}
+.SystemStartFormTitle.mb-16 {
+  margin-bottom: 16px;
+}
+.SystemStartFormTitle.mb-8 {
+  margin-bottom: 8px;
+}
+.SystemStartFormTitle.mb-4 {
+  margin-bottom: 4px !important;
+}
+.SystemStartFormTitle.margin-18 {
+  margin-bottom: 18px;
+}
+.SystemStartFormTitle.margin-40 {
+  margin-bottom: 40px;
+}
+.SystemStartGreyInformativeP {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #929292;
+  margin-bottom: 24px;
+}
+.inputFieldMultiRegularRadioContainer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-bottom: 16px;
+}
+.inputFieldRegularRadio label {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-indent: 5px;
+  color: #000000;
+}
+.inputFieldRegularRadio input {
+  margin: 0;
+}
+.inputFieldRegularRadio {
+  display: flex;
+  align-items: center;
+}
+.inputFieldRegularRadio input:checked,
+.inputFieldRegularRadio input:not(:checked) {
+  display: none;
+}
+.inputFieldRegularRadio input:checked + label,
+.inputFieldRegularRadio input:not(:checked) + label {
+  position: relative;
+  padding-left: 22px;
+  cursor: pointer;
+  line-height: 16px;
+}
+.inputFieldRegularRadio input:checked + label:before,
+.inputFieldRegularRadio input:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 17px;
+  height: 17px;
+  border: 1px solid #c4c4c4;
+  border-radius: 100%;
+  background: transparent;
+}
+.inputFieldRegularRadio input:checked + label:after,
+.inputFieldRegularRadio input:not(:checked) + label:after {
+  content: url(../images/radioBlueCheck.svg);
+  position: absolute;
+  top: 3px;
+  left: -2px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.inputFieldRegularRadio input:not(:checked) + label:after {
+  content: none;
+}
+.inputFieldRegularRadio.mb-24 {
+  margin-bottom: 24px;
+}
+.coloredInitialsCircle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.coloredInitialsCircle.preview4profile {
+  width: 66px;
+  height: 66px;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.centeredNoDataGrey {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.centeredNoDataGrey p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #929292;
+}
+.centeredNoDataGrey img {
+  object-fit: contain;
+}
+.centeredNoDataGrey.TextThenImage p {
+  margin-bottom: 9px;
+}
+.centeredNoDataGrey.TextThenImage img {
+  width: 323px;
+  height: 234px;
+  margin-bottom: 12px;
+}
+.centeredNoDataGrey.ImageThenText p {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.centeredNoDataGrey.ImageThenText img {
+  width: 185px;
+  height: 134px;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+.WelcomeText {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #181818;
+  margin-bottom: 29px;
+}
+.WelcomeText img {
+  width: 29px;
+  height: 29px;
+  object-fit: contain;
+  margin-left: 8px;
+}
+.ValueGreyText {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #929292;
+  margin-bottom: 16px;
+  word-break: break-word;
+}
+a.ValueGreyText {
+  color: #929292 !important;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 700;
+}
+.ValueGreyText.mb-8 {
+  margin-bottom: 8px;
+}
+.ValueGreyText.mb-4 {
+  margin-bottom: 4px !important;
+}
+.ValueGreyText.floatRight {
+  float: right;
+}
+.ValueGreyText.showOn1200 {
+  display: none;
+}
+
+.ValueGreyText12 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #929292;
+  margin-bottom: 16px;
+}
+a.ValueGreyText12 {
+  color: #929292 !important;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 700;
+}
+.ValueGreyText12.mb-8 {
+  margin-bottom: 8px;
+}
+.ValueGreyText12.mb-4 {
+  margin-bottom: 4px !important;
+}
+.ValueGreyText12.floatRight {
+  float: right;
+}
+.ValueGreyText12.showOn1200 {
+  display: none;
+}
+
+.blueSkillsBox {
+  background: rgba(31, 163, 255, 0.1);
+  border-radius: 5px;
+  height: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #1fa3ff;
+  margin-bottom: 16px;
+}
+.blueSkillsBox.smaller {
+  height: 24px;
+  margin-bottom: 8px;
+}
+.blueSkillsBox p {
+  margin-bottom: 0;
+}
+.blueSkillsBox button {
+  border: none;
+  background-color: transparent;
+}
+
+.blueSkillBoxContainer {
+  display: inline-block;
+  margin-right: 20px;
+}
+.blueSkillsBox.minWidth90 {
+  min-width: 90px;
+  width: fit-content;
+  justify-content: center;
+}
+.LabelForInput.secondoryBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.LabelForInput {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #181818;
+  margin-bottom: 8px;
+  word-break: break-word;
+}
+.LabelForInput .labelGreyText {
+  color: #929292;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 5px;
+}
+.LabelForInput.mb-4 {
+  margin-bottom: 4px !important;
+}
+.ValueGreyText .classic12Link {
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+}
+.NoteText {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #181818;
+}
+.ERRORILLUSTRATION {
+  position: relative;
+  height: 246px;
+  width: 485px;
+  margin: 0 auto;
+}
+.ERRORILLUSTRATIONTEXT {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #929292;
+  position: absolute;
+  top: 56px;
+  right: 0;
+  width: 292px;
+  height: 83px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.ERRORILLUSTRATIONIMG {
+  width: 340px;
+  height: 100%;
+}
+.ProfileSubtitle {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: capitalize;
+  color: #929292;
+  margin-bottom: 4px;
+}
+.ProfileDetails {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: capitalize;
+  color: #929292;
+  margin-bottom: 4px;
+}
+.atsBodyProfileCardNameAndButtons {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-end;
+}
+.atsBodyProfileCardButtonsContainer {
+  display: flex;
+  gap: 16px;
+}
+.dropDownSmallBlackArrow {
+  margin: 4px 0;
+  border-bottom: 1px solid rgba(196, 196, 196, 0.5);
+}
+.dropDownSmallBlackArrow:last-child {
+  border-bottom: none;
+}
+.dropDownSmallBlackArrow .accordion-item {
+  border: none;
+  border-bottom: 1px solid rgba(196, 196, 196, 0.5);
+  border-radius: none;
+}
+.dropDownSmallBlackArrow .accordion-item:last-child {
+  border-bottom: none;
+}
+.dropDownSmallBlackArrow .accordion-button {
+  padding: 16px 0;
+  background-color: transparent !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.dropDownSmallBlackArrow .accordion-button::after {
+  content: none;
+}
+.dropDownSmallBlackArrow .accordion-button svg {
+  margin-left: 8px;
+  transform: rotate(180deg);
+}
+.dropDownSmallBlackArrow .accordion-button.collapsed svg {
+  margin-left: 8px;
+  transform: rotate(0);
+}
+.dropDownSmallBlackArrow .accordion-body {
+  padding: 0;
+}
+.GeneralContainer70 {
+  padding: 0 70px !important;
+}
+.GeneralContainer14 {
+  padding: 0 14px !important;
+}
+.subtitle20ForASection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 32px;
+}
+.subtitle20ForASection a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #1fa3ff;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+.subtitle20ForASection a:hover {
+  color: #1fa3ff;
+  text-decoration: underline;
+}
+.instruction-text.w-fullWithoutImage {
+  width: calc(100% - 24px);
+}
+.noDataWhiteP {
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 23px !important;
+  color: #ffffff !important;
+}
+.forgotPasswordLink {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  float: right;
+  text-decoration: none;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.forgotPasswordLink.Talent {
+  color: #f66b0e !important;
+}
+.forgotPasswordLink.Client {
+  color: #181818 !important;
+}
+.forgotPasswordLink:hover {
+  text-decoration: underline;
+}
+.multiCheckboxesGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.multiCheckboxesGroup input {
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  border-radius: 2px;
+  width: 16px;
+  height: 16px;
+  margin-bottom: 8px;
+}
+.multiCheckboxesGroup label {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #181818;
+  margin-bottom: 8px;
+}
+.intercom-lightweight-app-launcher {
+  bottom: 10px !important;
+  right: 10px !important;
+}
+.GeneralNavDropDown .dropdown-menu {
+  left: unset !important;
+  right: 0;
+  background: #fafafa;
+  border-radius: 5px;
+  min-width: 258px;
+  margin-top: 12px !important;
+  border: none;
+  padding: 0;
+  overflow: hidden;
+  max-width: 391px;
+}
+.GeneralNavDropDown.large .dropdown-menu {
+  width: 385px;
+}
+.GeneralNavDropDown .dropdown-item {
+  padding: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  white-space: unset !important;
+  position: relative;
+}
+.GeneralNavDropDown .dropdown-item:hover {
+  background-color: rgba(31, 163, 255, 0.1);
+}
+.notificationsDiv {
+  padding: 10px !important;
+}
+.notificationsTitle {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #181818;
+  margin-bottom: 4px;
+}
+.new .notificationsTitle {
+  font-weight: 700;
+}
+.notificationsText {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #929292;
+  margin-bottom: 8px;
+  word-break: break-word;
+  width: 90%;
+}
+.new .notificationsText {
+  font-weight: 700;
+}
+.notificationsText img {
+  position: absolute;
+  right: 10px;
+  top: 30px;
+}
+.notificationsDate {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+  color: #929292;
+  margin: 0;
+}
+.new .notificationsDate {
+  font-weight: 700;
+}
+/* partners */
+.clientLandingPartners.darkMode {
+  background-color: #00111d;
+}
+.clientLandingPartners .react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clientLandingPartners .react-multi-carousel-item img {
+  height: auto;
+  width: 155px;
+}
+.clientLandingPartners {
+  padding: 70px 0;
+}
+.clientLandingPartners.centered .react-multi-carousel-list {
+  justify-content: center;
+}
+.clientLandingPartnersLogosMobileDiv {
+  display: none;
+}
+.GreyLabelWithImage {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.GreyLabelWithImage label {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #929292;
+}
+.blackTextAfterLabelWithImage {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #181818;
+  margin-bottom: 8px;
+  padding-left: 20px;
+}
+.blackTextAfterLabelWithImage.link {
+  text-decoration-line: underline;
+  color: #1fa3ff !important;
+}
+.blackTextLabel12 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #181818;
+  margin: 16px 0;
+}
+.interviewCalender .Cal__MonthList__root {
+  height: 100% !important;
+  overflow: hidden !important;
+  background-color: transparent !important;
+}
+.interviewCalender .Cal__Weekdays__root {
+  background-color: transparent !important;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #181818 !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+.interviewCalender .Cal__Month__rows,
+.interviewCalender .Cal__Container__listWrapper,
+.interviewCalender .Cal__Month__row:first-child li,
+.interviewCalender .Cal__Month__row:nth-child(2) {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.interviewCalender .Cal__Day__root {
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  color: #181818;
+  padding: 10px;
+}
+.interviewCalender .Cal__Month__row {
+  height: fit-content !important;
+}
+.interviewCalender .Cal__Day__month {
+  display: none !important;
+}
+.interviewCalender
+  .Cal__Day__root.Cal__Day__selected
+  .Cal__Day__selection
+  .Cal__Day__day {
+  top: -19%;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 600;
+}
+.interviewCalender
+  .Cal__Day__root.Cal__Day__enabled.Cal__Day__highlighted:before,
+.interviewCalender .Cal__Day__root.Cal__Day__enabled:active:before,
+.interviewCalender .Cal__Day__root.Cal__Day__enabled:hover:before {
+  background-color: transparent;
+}
+.interviewCalender .Cal__Day__root.Cal__Day__selected .Cal__Day__selection {
+  top: 70% !important;
+  left: 70% !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+.interviewCalender .Cal__Day__root.Cal__Day__today:before {
+  display: none;
+}
+.selectDateCalendar .fc .fc-button-primary {
+  background-color: transparent !important;
+  border: none !important;
+  color: #1fa3ff !important;
+}
+.selectDateCalendar .fc .fc-button-primary:focus {
+  box-shadow: none !important;
+}
+.selectDateCalendar .fc .fc-toolbar.fc-header-toolbar {
+  margin-bottom: 16px;
+}
+.selectDateCalendar .fc .fc-toolbar-title {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  font-feature-settings: "pnum" on, "lnum" on !important;
+  color: #181818 !important;
+}
+.selectDateCalendar .fc .fc-view-harness {
+  height: 271px !important;
+}
+.selectDateCalendar .fc-theme-standard .fc-scrollgrid {
+  border: none !important;
+}
+.selectDateCalendar .fc-theme-standard td,
+.fc-theme-standard th {
+  border: none !important;
+  cursor: pointer;
+}
+.selectDateCalendar .fc .fc-col-header-cell-cushion {
+  font-weight: 600;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  font-feature-settings: "tnum" on, "lnum" on !important;
+  color: #181818 !important;
+  text-decoration: none !important;
+}
+.selectDateCalendar .fc .fc-daygrid-day-number {
+  font-weight: 600;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  font-feature-settings: "tnum" on, "lnum" on !important;
+  color: #181818 !important;
+  text-decoration: none !important;
+}
+.selectDateCalendar .fc .fc-daygrid-day-top {
+  justify-content: center !important;
+  align-items: center !important;
+  height: 40px !important;
+  position: relative;
+  z-index: 9;
+}
+.selectDateCalendar .fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
+  position: absolute;
+  top: 0;
+  margin-top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: -webkit-fill-available;
+}
+/* .selectDateCalendar .fc-direction-ltr .fc-daygrid-event.fc-event-end {
+  margin: 0 !important;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  left: 2px;
+  top: 5px;
+} */
+.selectDateCalendar .fc .fc-highlight {
+  background: #1fa3ff;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: unset !important;
+}
+.selectDateCalendar .fc .fc-daygrid-day.fc-day-today {
+  background-color: transparent !important;
+}
+.selectDateCalendar .fc-h-event {
+  background-color: rgba(31, 163, 255, 0.1);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px !important;
+  margin: 0 !important;
+  border: none !important;
+  display: block;
+}
+.selectDateCalendar .fc-daygrid-bg-harness {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aTagUnderlined14 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #1fa3ff !important;
+}
+.css-1f5mqn-menu,
+#react-select-5-listbox {
+  z-index: 9999999999999999;
+}
+
+.react-add-to-calendar__wrapper a {
+  color: white !important;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  background-color: #1fa3ff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-bottom: 6px;
+  width: 160px;
+  display: block;
+}
+.react-add-to-calendar__wrapper a::before {
+  content: url(../images/white-calendar-icon.svg);
+  margin-right: 11px;
+}
+.react-add-to-calendar__wrapper a::after {
+  content: url(../images/down-arrow-white.svg);
+  margin-left: 3px;
+}
+.react-add-to-calendar {
+  margin-bottom: 16px;
+}
+.add2calendarButton {
+  display: flex;
+  justify-content: space-between;
+}
+.react-add-to-calendar__dropdown ul {
+  background: #fafafa;
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  box-shadow: 0px 4px 11px rgba(120, 120, 120, 0.24);
+  border-radius: 5px;
+  width: 160px;
+  list-style: none;
+  padding: 0;
+}
+.react-add-to-calendar__dropdown li {
+  padding: 8px 16px;
+}
+.react-add-to-calendar__dropdown li a {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #929292;
+  text-decoration: none;
+}
+.react-add-to-calendar__dropdown li a span {
+  margin-left: 8px;
+}
+.react-add-to-calendar__dropdown li:hover {
+  background: rgba(31, 163, 255, 0.1);
+}
+.calendarBlueP {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #1fa3ff;
+  margin-top: 8px;
+}
+.calendarCheckBox12BoldBlack {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #181818;
+}
+.calendarCheckBoxDiv {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.selectDateCalendar.multipleSelect .fc-h-event {
+  background-color: #1fa3ff !important;
+}
+.dropdownButtonBlueText {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #1fa3ff;
+  margin: 0;
+  margin-right: 28px;
+}
+.charCounter {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #929292;
+  float: right;
+}
+.fieldCheckboxesDiv {
+  height: 33px;
+  background: #fafafa;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 10px;
+  margin-bottom: 4px;
+}
+.fieldCheckboxesDiv.selected {
+  background: rgba(31, 163, 255, 0.1);
+}
+.fieldCheckboxesDiv.disabled {
+  background: rgba(31, 163, 255, 0.1);
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.fieldCheckboxesDiv .LabelForInput {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 !important;
+}
+.fieldCheckboxesDiv input {
+  width: 16px;
+  height: 16px;
+}
+.blueBannerWithBlueText {
+  background: rgba(31, 163, 255, 0.1);
+  border-radius: 5px;
+  min-height: 40px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #1fa3ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.toast-header {
+  border-radius: 10px !important;
+}
+.PricingWhiteBox {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 3.025938034057617px 12.860236167907715px 0px
+    rgba(180, 180, 180, 0.16);
+  padding: 20px;
+  width: 300px;
+}
+.PricingTitleAndHighlights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.insidePages .PricingTitleAndHighlights {
+  margin-bottom: 16px;
+}
+.pricingTitle {
+  color: #181818;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.insidePages .pricingTitle {
+  font-size: 16px;
+}
+.BillingWhiteANDBlue {
+  display: flex;
+  gap: 21px;
+  margin-bottom: 15px;
+}
+.BillingWhiteANDBlue .PricingWhiteBox,
+.BillingWhiteANDBlue .blueBox500 {
+  width: 50%;
+}
+.highlight {
+  color: #1fa3ff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 4px;
+  background: rgba(31, 163, 255, 0.1);
+  padding: 8px;
+  margin-bottom: 0;
+}
+.insidePages .highlight {
+  display: inline;
+  margin-left: 22px;
+}
+.pricingFeaturesList li {
+  color: #929292;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.insidePages .pricingFeaturesList li {
+  font-size: 14px;
+}
+
+.pricingFeaturesList {
+  margin-bottom: 101px;
+  padding-left: 20px;
+  list-style-image: url("../images/entypo-check.svg");
+}
+.insidePages .pricingFeaturesList {
+  margin-bottom: 0;
+}
+.pricingPriceInCard .currency {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: normal;
+  color: #181818;
+}
+.pricingPriceInCard .price {
+  font-weight: 700;
+  line-height: normal;
+  color: #181818;
+  font-size: 25px;
+}
+.pricingPriceInCard .interval {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color: #929292;
+}
+.pricingPriceInCard {
+  margin-bottom: 16px;
+}
+.insidePages .pricingPriceInCard {
+  margin-bottom: 0;
+}
+.pricingCardsContainer {
+  display: table;
+  width: 100%;
+}
+.pricingCardsContainer {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.PricingWhiteBox,
+.blueBox500 {
+  flex: unset;
+  position: relative;
+}
+.PricingActions {
+  position: absolute;
+  bottom: 20px;
+  width: calc(100% - 40px);
+}
+.toggle-switch4Pricing:not(:checked),
+.toggle-switch4Pricing:checked {
+  position: relative;
+  opacity: 00;
+  width: 0;
+}
+.toggle-switch4Pricing:not(:checked) + label,
+.toggle-switch4Pricing:checked + label {
+  position: relative;
+  padding-left: 4em;
+  cursor: pointer;
+  height: 24px;
+}
+.smaller4InsidePages .toggle-switch4Pricing:not(:checked) + label,
+.smaller4InsidePages .toggle-switch4Pricing:checked + label {
+  padding-left: 30px;
+  height: 15px;
+}
+.toggle-switch4Pricing:not(:checked) + label:before,
+.toggle-switch4Pricing:checked + label:before,
+.toggle-switch4Pricing:not(:checked) + label:after,
+.toggle-switch4Pricing:checked + label:after {
+  content: "";
+  position: absolute;
+}
+/* switch off bar design */
+.toggle-switch4Pricing:not(:checked) + label:before,
+.toggle-switch4Pricing:checked + label:before {
+  left: 0;
+  top: -0.1em;
+  width: 4em;
+  height: 1.85em;
+  background: #000;
+  border-radius: 1em;
+  border: 4px solid #000;
+  transition: background-color 0.2s;
+}
+.smaller4InsidePages .toggle-switch4Pricing:not(:checked) + label:before,
+.smaller4InsidePages .toggle-switch4Pricing:checked + label:before {
+  left: 0;
+  top: -0.1em;
+  width: 30px;
+  height: 15px;
+  background: #1fa3ff;
+  border-radius: 1em;
+  border: 4px solid #1fa3ff;
+  transition: background-color 0.2s;
+}
+/* switch ball color and design and off position*/
+.toggle-switch4Pricing:not(:checked) + label:after,
+.toggle-switch4Pricing:checked + label:after {
+  width: 1.4em;
+  height: 1.4em;
+  transition: all 0.2s;
+  border-radius: 50%;
+  background: #edbb01;
+  top: 0.12em;
+  right: 0.2em;
+}
+.smaller4InsidePages .toggle-switch4Pricing:not(:checked) + label:after,
+.smaller4InsidePages .toggle-switch4Pricing:checked + label:after {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  top: 0.5px;
+}
+
+/* on checked */
+.toggle-switch4Pricing:checked + label:before {
+  background: #000;
+}
+.smaller4InsidePages .toggle-switch4Pricing:checked + label:before {
+  background: #1fa3ff;
+}
+.toggle-switch4Pricing:checked + label:after {
+  background: #edbb01;
+  right: 2.3em;
+}
+.smaller4InsidePages .toggle-switch4Pricing:checked + label:after {
+  background: #fff;
+  right: 16px;
+}
+
+.toggle-switch4Pricing:checked + label .ui,
+.toggle-switch4Pricing:not(:checked) + label .ui:before,
+.toggle-switch4Pricing:checked + label .ui:after {
+  position: absolute;
+  left: 0.6em;
+  width: 6em;
+  border-radius: 1em;
+  font-size: 0.875em;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.pricingMonthlyYearlyDiv {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.pricingMonthlyYearlyDiv.smaller4InsidePages {
+  justify-content: end;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+.togglerP {
+  color: #181818;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.smaller4InsidePages .togglerP {
+  font-size: 14px;
+}
+.togglerP.dark {
+  font-weight: 700;
+}
+.togglerP .blueText {
+  color: #1fa3ff;
+}
+.smaller4InsidePages div {
+  display: flex;
+  align-items: center;
+}
+.createRoleTutorialEllipseProgressDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 22px;
+}
+.largeTitleText {
+  color: #181818;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.connectedGreenLabel {
+  border-radius: 27px;
+  background: rgba(70, 151, 99, 0.16);
+  display: flex;
+  min-height: 12px;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: #469763;
+  text-align: center;
+  font-size: 8px;
+  font-weight: 700;
+  position: absolute;
+  line-height: normal;
+  right: 18px;
+  top: 7px;
+  margin: 0;
+}
+.descriptiveText16 {
+  color: #181818;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.whiteBoxAndBlackBorder {
+  border-radius: 27px;
+  border: 1px solid #181818;
+  background: #fff;
+  padding: 30px;
+  border-bottom: 10px solid #181818;
+  margin-bottom: 30px;
+  height: 400px;
+}
+.TapflowVsCompetitors-titleAndImage {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 45px;
+}
+.TapflowVsCompetitors-titleAndImage h5 {
+  color: #181818;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.TapflowVsCompetitors-competitorList {
+  padding: 0;
+}
+.TapflowVsCompetitors-competitorList li {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: start;
+  gap: 7px;
+}
+.optionBlueBox {
+  border-radius: 5px;
+  background: rgba(31, 163, 255, 0.1);
+  padding: 10px;
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+}
+.optionBlueBox label {
+  color: #1fa3ff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.optionBlueBox img {
+  cursor: pointer;
+}
+.inputField-RangeSlider {
+  margin: 16px 0;
+  border-radius: 10px !important;
+  height: 4px !important;
+  background: #e1e1e1 !important;
+}
+.inputField-RangeSlider::before {
+  content: "";
+  display: block;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  left: 0;
+  position: relative;
+  background-color: #e1e1e1;
+  bottom: 5px;
+}
+.inputField-RangeSlider::after {
+  content: "";
+  display: block;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  right: 0;
+  position: absolute;
+  background-color: #e1e1e1;
+  bottom: -3px;
+}
+.range-slider.inputField-RangeSlider .range-slider__range {
+  background: #1fa3ff !important;
+  width: unset;
+}
+.inputField-RangeSlider .range-slider__thumb {
+  width: 12px !important;
+  height: 12px !important;
+  background: #e1e1e1 !important;
+  border: 3px solid #1fa3ff;
+}
+.range-slider.inputField-RangeSlider.error .range-slider__range {
+  background: #ef1e1e !important;
+}
+.inputField-RangeSlider.error .range-slider__thumb {
+  border: 3px solid #ef1e1e;
+}
+.inputField-RangeSlider-MinMaxBox {
+  display: flex;
+  justify-content: space-between;
+}
+.inputField-RangeSlider-MinMaxBox span {
+  color: #929292;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.range-slider-min-max-label {
+  position: absolute;
+  top: -35px;
+  border-radius: 5px;
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  background: #fafafa;
+  width: 31px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: -13px;
+}
+.yellowSpan {
+  border-radius: 2px;
+  border: 1px solid #ffc900;
+  background: rgba(255, 201, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  width: fit-content;
+  padding: 5px;
+  color: #181818;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+.miniLabel {
+  color: #181818;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 8px;
+  display: block;
+}
+.radioButtonProgress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.radioButtonProgressLine {
+  position: absolute;
+  width: 100%;
+  height: 5px !important;
+}
+.radioInputProgress {
+  position: relative;
+  z-index: 1;
+}
+.blueDot {
+  width: 13px;
+  height: 13px;
+  background-color: #1fa3ff;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+.radioButtonProgress .progress-bar {
+  background-color: #1fa3ff;
+}
+.radioInputProgress.hidden {
+  display: none;
+}
+.radioButtonValues {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #929292;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.blueInformativeDiv {
+  border-radius: 5px;
+  background: rgba(31, 163, 255, 0.1);
+  padding: 16px 10px;
+  margin: 20px 0;
+}
+.blueInformativeDiv .labelAndValue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.blueInformativeDiv .labelAndValue label {
+  color: #181818;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.blueInformativeDiv .labelAndValue p {
+  color: #181818;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.blueInformativeDiv .labelAndValue a {
+  color: #1fa3ff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.informationParagraph {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.informationParagraph.blue {
+  color: #1fa3ff;
+}
+.informationParagraph.red {
+  color: #ef1e1e;
+}
+.regularRadio {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 9px;
+}
+.regularRadio label {
+  color: #181818;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+@media (max-width: 1200px) {
+  .pricingCardsContainer {
+    justify-content: center;
+    gap: 10px;
+  }
+  .PricingWhiteBox {
+    margin-bottom: 32px;
+    flex: unset;
+  }
+  .GeneralContainer70 {
+    padding: 0 35px !important;
+  }
+  .ValueGreyText.floatRight.hideOn1200 {
+    display: none;
+  }
+  .ValueGreyText.showOn1200 {
+    display: block;
+  }
+}
+@media (max-width: 992px) {
+  .inputFieldRegularRadio input:checked + label:after,
+  .inputFieldRegularRadio input:not(:checked) + label:after {
+    top: 2px;
+    left: -3px;
+  }
+  .ValueGreyText.floatRight {
+    float: unset;
+  }
+}
+@media (max-width: 767px) {
+  .blueBox500 {
+    width: 100% !important;
+    margin-bottom: 15px;
+  }
+  .BillingWhiteANDBlue {
+    display: block;
+  }
+  .inputfieldTimePicker {
+    display: block;
+    margin-bottom: 8px;
+  }
+  #react-time-range .component {
+    width: 45%;
+  }
+  .inputfieldTimePicker #start-component {
+    margin-right: 10px !important;
+  }
+  .GeneralNavDropDown .dropdown-menu {
+    min-width: unset;
+    max-width: unset;
+    width: 100%;
+  }
+  .GeneralContainer70 {
+    padding-right: var(--bs-gutter-x, 0.75rem) !important;
+    padding-left: var(--bs-gutter-x, 0.75rem) !important;
+  }
+  .GeneralContainer14 {
+    padding-right: var(--bs-gutter-x, 0.75rem) !important;
+    padding-left: var(--bs-gutter-x, 0.75rem) !important;
+  }
+  .ValueGreyText {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .WelcomeText {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 24px;
+  }
+  .SystemStartFormTitle {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 16px;
+  }
+  .DashboardStatusBox .statMainTextAndImage p {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 8px;
+  }
+  .DashboardStatusBox {
+    padding: 20px !important;
+  }
+  .ERRORILLUSTRATION {
+    width: 300px;
+    height: auto;
+  }
+  .ERRORILLUSTRATIONTEXT {
+    font-size: 10px;
+    line-height: 12px;
+    top: 40px;
+    right: 0;
+    width: 50%;
+    height: 47px;
+  }
+  .ERRORILLUSTRATIONIMG {
+    width: 224px;
+  }
+  .inputField-ReactSelect.mb-8 .css-1s2u09g-control,
+  .inputField-ReactSelect.mb-8 .css-1pahdxg-control,
+  .inputField-ReactSelect.mb-8 .css-1insrsq-control {
+    margin-bottom: 16px !important;
+  }
+  .LabelForInput.hiddenOn767 {
+    display: none;
+  }
+  .blueSkillBoxContainer {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .whiteBoxAndBlackBorder {
+    height: 460px;
+  }
+}
+@media (max-width: 768px) {
+  .whiteBoxAndBlackBorder {
+    height: 380px;
+  }
+}
+@media (max-width: 575px) {
+  .whiteBoxAndBlackBorder {
+    height: fit-content;
+  }
+  .clientLandingPartnersLogosMobileDiv {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+  }
+  .clientLandingPartnersLogosMobileDiv img {
+    max-width: 90px;
+    height: auto;
+  }
+  .signupWithBTNDevSign {
+    margin-bottom: 8px;
+  }
+  .centeredNoDataGrey.TextThenImage img {
+    width: 200px;
+    height: auto;
+  }
+  .GeneralNavDropDown.large .dropdown-menu {
+    width: 100vw;
+    right: -65px;
+  }
+}

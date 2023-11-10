@@ -1,0 +1,140 @@
+.generateJDSection {
+  background-image: url(../images/generateJDBlueGlobe.png);
+  margin-top: 72px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+}
+.generateJDRow {
+  align-items: center;
+}
+.GenerateJDTitle {
+  color: #181818;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.generateJDText {
+  color: #929292;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 40px;
+  max-width: 450px;
+}
+.generateJDList {
+  list-style: none;
+  padding: 0;
+}
+.generateJDList li {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 24px;
+  display: flex;
+  gap: 8px;
+}
+.generateJDList li span {
+  border-radius: 3px;
+  background: #1fa3ff;
+  color: white;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  padding: 5px 8px 6px 8px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  font-size: 16px;
+}
+.whiteFormBox {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 17px 0px rgba(180, 180, 180, 0.16);
+  padding: 24px;
+  margin: 64px 0;
+}
+.buttonWithIconGenerate {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+}
+.GenerateJDToastie {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  bottom: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  background: #fafafa;
+  box-shadow: 0px 4px 11px 0px rgba(120, 120, 120, 0.24);
+}
+.GenerateJDToastie p {
+  color: #181818;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.GenerateJDToastie .toastieBody {
+  display: flex;
+  gap: 7px;
+  padding: 12px 0;
+  align-items: center;
+}
+.GenerateJDToastie .toast-body {
+  padding: 0;
+  word-break: keep-all;
+}
+.generateJDDroppedInfoGreyBox {
+  background: #fafafa;
+  padding: 12px 0;
+  position: relative;
+}
+.generateJDDroppedInfoGreyBox p {
+  color: #181818;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.generateJDDroppedInfoGreyBox a {
+  color: #181818;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.XButton {
+  cursor: pointer;
+  position: absolute;
+  right: 19px;
+  top: 12px;
+}
+@media (max-width: 1200px) {
+  .generateJDSection {
+    background-image: none;
+  }
+  .whiteFormBox {
+    box-shadow: none;
+    padding: 0;
+    margin: 64px 0;
+  }
+}
+@media (max-width: 992px) {
+  .GenerateJDTitle {
+    font-size: 40px;
+    margin-top: 24px;
+  }
+  .generateJDList li {
+    font-size: 18px;
+  }
+  .generateJDSection {
+    margin-top: 67px;
+  }
+}

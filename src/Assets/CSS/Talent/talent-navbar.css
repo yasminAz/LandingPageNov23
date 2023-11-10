@@ -1,0 +1,23 @@
+.main-body {
+  padding: 10px 0 20px 0;
+  margin-left: 80px;
+}
+.main-body.no-margin {
+  padding: 10px 0 20px 0;
+  margin-left: 0;
+}
+.main-pages-structure {
+  background-image: none !important;
+  background-color: #fffcf3 !important;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+@media (max-width: 992px) {
+  .main-body {
+    padding-top: 90px !important;
+    margin: 0 !important;
+    position: initial !important;
+  }
+}

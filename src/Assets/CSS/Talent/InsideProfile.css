@@ -1,0 +1,487 @@
+.container-fluid.PreferencesContainer {
+  padding: 0;
+}
+
+.TalentProfilePreferencesSideDev {
+  position: fixed;
+  background: #fafafa;
+  right: 0;
+  width: 320px;
+  height: calc(100vh - 72px);
+  border-left: 1px solid rgba(196, 196, 196, 0.5);
+  padding: 30px 35px;
+  overflow: auto;
+  top: 71px;
+}
+.ProfileSectionPlusEditDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ProfileSectionPlusEditDiv.m-b24 {
+  margin-bottom: 24px;
+}
+.ProfileSectionPlusEditDiv h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #181818;
+  margin-bottom: 0;
+}
+.ProfileSectionPlusEditDiv h2 img {
+}
+.preferenceOpportunityColoredBox {
+  min-height: 40px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 8px 18px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.preferenceOpportunityColoredBox.mb-24 {
+  margin-bottom: 24px;
+}
+.preferenceOpportunityColoredBox img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-right: 8px;
+}
+.preferenceOpportunityColoredBox.Green {
+  color: #469763;
+  background: rgba(94, 223, 140, 0.2);
+}
+.preferenceOpportunityColoredBox.Yellow {
+  color: #929292;
+  background: rgba(255, 201, 0, 0.2);
+}
+.preferenceOpportunityColoredBox.Red {
+  color: rgba(239, 30, 30, 1);
+  background: rgba(239, 30, 30, 0.2);
+}
+.bubbleCheckboxLabelBoxPreview {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #1fa3ff;
+  border: 1px solid #1fa3ff;
+  border-radius: 5px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0 3px !important;
+  margin: 0px 8px 8px 0;
+  cursor: pointer;
+  background-color: transparent;
+  min-width: 70px;
+}
+.bubbleCheckboxLabelBoxPreview.disabled {
+  color: #929292;
+  border: 1px solid #929292;
+  cursor: not-allowed;
+}
+.bubbleCheckboxLabelBoxPreview.selected {
+  color: #fff !important;
+  background-color: #1fa3ff;
+}
+.bubbleCheckboxBoxPreview div {
+  display: inline-block;
+}
+.talentProfilePageMainBodyCont {
+  margin-right: 320px;
+}
+.TalentProfileImage {
+  width: 100%;
+  height: auto;
+}
+.TalentProfileGITitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #181818;
+  margin-bottom: 0;
+}
+.TalentProfileGIRow {
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.TalentProfileSocialMediaContainer {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.TalentProfileBlueSocialMediaBox {
+  background: rgba(31, 163, 255, 0.1);
+  border-radius: 4px;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.TalentProfileBlueSocialMediaBox img {
+  cursor: pointer;
+}
+.TalentProfileHRAfterGI {
+  margin: 32px 0;
+  color: #c4c4c4;
+  opacity: 50%;
+}
+.TalentProfileSkillsAndExpRow {
+  padding: 32px 35px 16px 35px;
+  background: white;
+  box-shadow: 0px 1px 17px rgba(180, 180, 180, 0.16);
+  border-radius: 24px;
+  margin: 0;
+  margin-bottom: 16px;
+}
+.TalentProfileEducationAndExpBox {
+  background: white;
+  box-shadow: 0px 1px 17px rgb(180 180 180 / 16%);
+  border-radius: 24px;
+  margin: 0;
+  margin-bottom: 16px;
+  position: relative;
+}
+.TalentProfileEducationAndExpBox .p-32 {
+  padding: 32px 35px 16px 35px;
+}
+
+.width136 {
+  width: 136px !important;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.orangeProgressBanner {
+  background-color: #f66b0e;
+  color: white;
+  padding: 16px 35px;
+  border-radius: 0px 0px 24px 24px;
+  position: fixed;
+  width: calc(100% - 567px);
+  z-index: 9;
+}
+.orangeProgressBanner.fixed {
+  top: 73px;
+}
+.CircularProgressbar-path {
+  stroke: white;
+}
+.CircularProgressbar-trail {
+  stroke: rgba(255, 255, 255, 0.318);
+}
+.CircularProgressbar-text {
+  fill: white;
+}
+.CircularProgressbar-background {
+  fill: white;
+}
+.progressBar {
+  width: 56px;
+  height: 56px;
+  float: right;
+  margin-bottom: 16px;
+}
+.progressbarText {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.orangeProgressBanner h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+.orangeProgressBanner p {
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.progressSectionButton {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  height: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  background-color: transparent;
+}
+.progressSectionButton:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.progressSectionButton.filled {
+  color: #f66b0e;
+  background-color: white;
+}
+.progressSectionButton.filled img {
+  margin-left: 4px;
+}
+.progressSectionButtonsBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.progressBarPercentageOnScroll {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  margin-bottom: 0;
+  float: right;
+}
+.bluefunctionTextShowMore {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1fa3ff;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 0;
+  padding-bottom: 16px;
+}
+.RowAlignCenter {
+  align-items: center;
+}
+.FlexAlignCenter {
+  display: flex;
+  align-items: center;
+}
+.circularImage66 {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #f66b0e;
+  background-color: #f66b0e;
+}
+
+.circularImage90 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #f66b0e;
+  background-color: #f66b0e;
+}
+.orangeProgressRowForTabletAndMobile {
+  display: none;
+}
+.heightUnderOrangeProgressBarProfile {
+  height: 130px;
+}
+.mobileProgressButton {
+  height: 32px;
+  border: 1px solid #f66b0e;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #f66b0e;
+}
+.mobileProgressButton.selected {
+  background-color: rgba(246, 107, 14, 0.15);
+}
+.mobileProgressButton img {
+  width: 16px;
+  height: 16px;
+}
+.mobileProgressButtonsBox div {
+  display: inline-block;
+  margin-right: 12px;
+}
+.mobileProgressButtonsBox {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.mobileProgressButtonsBox {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.mobileProgressButtonsBox::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.mobileProgressButtonsBox {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+.mobileProgress {
+  display: none;
+}
+.ColoredCircle {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+.ColoredCircle.Yellow {
+  background-color: #ffc900;
+}
+.ColoredCircle.Orange {
+  background-color: #f77a27;
+}
+.ColoredCircle.Green {
+  background-color: #469763;
+}
+.ColoredCircle.Blue {
+  background-color: #1fa3ff;
+}
+.ColoredCircle.Red {
+  background-color: #ef1e1e;
+}
+.Gray14Text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  /* Secondary / grey */
+  margin: 0;
+  color: #929292;
+  word-break: break-word;
+}
+.Gray14Text.mb-16 {
+  margin-bottom: 16px;
+}
+.StatusDiv {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.OffersBanner.profilePageRestructure {
+  width: calc(100% - 320px);
+}
+@media (max-width: 1200px) {
+  .OffersBanner.profilePageRestructure {
+    width: 100%;
+  }
+  .TalentProfileEducationAndExpBox .p-32 {
+    padding: 32px 0 16px 0;
+    margin: 0;
+  }
+  .mobileProgress {
+    display: block;
+    margin-bottom: 24px;
+  }
+  .talentProfilePageMainBodyCont {
+    margin-right: 0px;
+  }
+  .TalentProfilePreferencesSideDev {
+    position: initial;
+    width: 100%;
+    height: 100%;
+    border-left: none;
+    padding: 30px 35px;
+    overflow: unset;
+    background: white;
+    box-shadow: 0px 1px 17px rgb(180 180 180 / 16%);
+    border-radius: 24px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  .heightUnderOrangeProgressBarProfile {
+    height: 80px;
+  }
+  .orangeProgressRowForTabletAndMobile {
+    display: block;
+  }
+  .orangeProgressRowForDesktop {
+    display: none;
+  }
+  .TalentProfileSkillsAndExpRow {
+    padding: 32px 0 16px 0;
+  }
+  .TalentProfileGIRow {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 16px;
+  }
+  .TalentProfileSocialMediaContainer {
+    margin-bottom: 16px;
+  }
+
+  /* .TalentProfileBlueSocialMediaBox {
+    background: transparent;
+    height: fit-content;
+    width: fit-content;
+  } */
+  /* .TalentProfileBlueSocialMediaBox img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+  } */
+  .orangeProgressBanner {
+    width: 100%;
+    padding: 10px;
+    left: 0;
+  }
+  .circularImage90 {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (max-width: 992px) {
+  .circularImage90 {
+    width: 90px;
+    height: 90px;
+  }
+  .TalentProfileGIRow {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 767px) {
+  .Gray14Text {
+    margin-bottom: 4px;
+  }
+}
+@media (max-width: 575px) {
+  .circularImage90 {
+    width: 100%;
+    height: auto;
+  }
+  .marginBottom16pxOnMobile {
+    margin-bottom: 16px;
+  }
+  .circularImage66.centerImageOnMobile {
+    margin: 0 auto;
+    display: flex;
+  }
+  .TalentProfileGITitle {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}

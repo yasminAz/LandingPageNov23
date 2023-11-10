@@ -1,0 +1,23 @@
+.terms-and-conditions-cont {
+  padding: 50px 0;
+  color: black !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.terms-red-text {
+  color: red !important;
+}
+.terms-accept-btn {
+  margin: 0 5px;
+  border: 2px solid #1fa3ff;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  background-color: #1fa3ff;
+  color: white;
+  padding: 10px 20px;
+  float: right;
+}

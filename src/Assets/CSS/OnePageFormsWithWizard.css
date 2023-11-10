@@ -1,0 +1,472 @@
+.agencyBGColor {
+  background-color: #fffcf3;
+  min-height: 100vh;
+}
+.spacingTopAndBottom {
+  padding: 32px 0;
+}
+.spacingTop {
+  padding-top: 32px;
+}
+.spacingBottom {
+  padding-bottom: 32px;
+  min-height: 90vh;
+  align-items: center;
+}
+.SpacingDevSign {
+  margin-top: 67px;
+}
+
+.inputField::file-selector-button {
+  width: 128px;
+  height: 22px;
+  background: #c4c4c4;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #181818;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.fileInput {
+  padding: 5px 20px;
+  color: #929292;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.fileInput.active {
+  color: #181818 !important;
+}
+select.inputField {
+  color: #929292;
+}
+select.inputField.active {
+  color: #181818;
+}
+.noSearchIcon.css-b62m3t-container:after {
+  content: none !important;
+}
+
+.greyOptionsTextDevSign {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #929292;
+  text-align: center;
+  width: 100%;
+  margin: 24px 0;
+}
+.haveAccountDevSign {
+  margin-top: 16px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #181818;
+  text-align: center;
+}
+.haveAccountDevSign a {
+  text-decoration-line: underline;
+  color: #1fa3ff;
+}
+.titleEmojiDevSign {
+  margin-left: 8px;
+}
+.wizardLinksDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.wizardLink {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #929292 !important;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.wizardLink svg {
+  margin-right: 16px;
+}
+.wizardLink.active {
+  color: #1fa3ff !important;
+}
+.whiteContainerFormDevSign {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 34px 0;
+  box-shadow: 0px 4px 17px 0px rgba(229, 113, 40, 0.1);
+}
+.whiteContainerFormClientSign {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 34px 0;
+  box-shadow: 0px 4px 17px rgba(180, 180, 180, 0.16);
+}
+.leftRightPaddingsGI {
+  padding: 0 29px;
+  margin-bottom: 8px;
+}
+.react-tel-input {
+  font-family: "Raleway", sans-serif !important;
+}
+.inputFieldPhoneNumber {
+  margin-bottom: 16px;
+}
+.inputFieldPhoneNumber.react-tel-input .country-list .country {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #181818;
+  padding: 8px 0 8px 20px;
+}
+.inputFieldPhoneNumber.react-tel-input .selected-flag {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.inputFieldPhoneNumber .form-control {
+  position: relative !important;
+  padding-left: 80px !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(196, 196, 196, 0.5) !important;
+  border-radius: 8px !important;
+  height: 32px !important;
+  width: 100% !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  color: #181818 !important;
+  /* padding: 10px 20px; */
+  font-feature-settings: "pnum" on, "lnum" on !important;
+}
+
+.inputFieldPhoneNumber.react-tel-input .flag-dropdown {
+  border-right: 1px solid rgba(196, 196, 196, 0.5) !important;
+  width: 65px;
+  display: flex;
+  justify-content: center;
+}
+.removableBlueBoxGI {
+  background: rgba(31, 163, 255, 0.1);
+  border-radius: 5px;
+  padding: 16px 18px 0 18px;
+  margin-bottom: 16px;
+  -webkit-transition: all 0.25s 0s linear;
+  -moz-transition: all 0.25s 0s linear;
+  -o-transition: all 0.25s 0s linear;
+  transition: all 0.25s 0s linear;
+}
+
+.salaryInputGroupGI {
+  display: flex;
+}
+.salaryInputGroupGI .conjoined {
+  border-radius: 0 8px 8px 0 !important;
+}
+.salaryInputGroupGI .conjoined.mb-8 {
+  margin-bottom: 8px;
+}
+.symbolHolderGI {
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+  width: 32px !important;
+  height: 32px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #181818;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.formSpacing4BTNSGI {
+  margin-top: 77px;
+}
+/* EE page */
+.sectionTitle-skipLinkContainerEE {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.sectionTitle-skipLinkContainerEE h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #181818;
+  margin-bottom: 0;
+}
+.sectionTitle-skipLinkContainerEE a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: underline !important;
+  text-transform: capitalize;
+  color: #94979e;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.titleSeperatorEE {
+  border: 1px solid #929292;
+  margin: 12px 0;
+}
+.checkboxDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.checkboxDiv label {
+  margin-bottom: 0;
+}
+.blueBoxOfDataEE {
+  background: rgba(31, 163, 255, 0.1);
+  border-radius: 5px;
+  padding: 16px 18px;
+  margin-bottom: 16px;
+  position: relative;
+}
+.blueBoxOfDataEE h3 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #181818;
+  margin-bottom: 4;
+  width: calc(100% - 40px);
+}
+.blueBoxOfDataEE h4 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #929292;
+  margin-bottom: 4;
+}
+.blueBoxOfDataEE h5 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #929292;
+  margin-bottom: 16;
+}
+.blueBoxOfDataEE p {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #181818;
+  margin-bottom: 0;
+  word-break: break-word;
+}
+
+.react-tel-input .flag-dropdown {
+  background-color: transparent !important;
+  border: none !important;
+  border-right: 1px solid !important;
+  background: transparent !important;
+}
+.react-tel-input .flag-dropdown:hover,
+.react-tel-input .flag-dropdown:focus {
+  border: 1px solid rgba(31, 163, 255, 1) !important;
+  outline: none !important;
+  border-top-left-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+}
+
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+.react-tel-input .flag-dropdown.open .selected-flag {
+  background: transparent !important;
+  border-radius: unset !important;
+}
+
+.submitErrorMessageDevSign {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #ef1e1e;
+  margin-bottom: 0;
+}
+.CVReaderLoadingMessage {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: BLACK;
+  margin-bottom: 5px;
+}
+.greyFieldBtn {
+  width: 100%;
+  height: 32px;
+  background: #c4c4c4;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.clearBtn {
+  width: 100%;
+  background: transparent;
+  border-radius: none;
+  border: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ef1e1e;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+  height: 32px;
+}
+.clearBtn:hover {
+  background: rgba(239, 30, 30, 0.1);
+  border-radius: 5px;
+}
+
+.redTutorialMSG {
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ef1e1e;
+  text-align: center;
+  margin-top: 8px;
+}
+.fileClearerBTN {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  top: 2px;
+  right: 10px;
+}
+.fileInfo {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 4px 0 16px 20px;
+  color: #929292;
+}
+.fileInfo.end {
+  text-align: end;
+}
+
+.ag-user-signup-multiSelect .css-1rhbuit-multiValue .optionLabel {
+  padding-right: 30px !important;
+}
+.css-xb97g8 {
+  position: absolute;
+  right: 4%;
+  top: 31%;
+}
+.showOn1200DevSign {
+  display: none;
+}
+.marginBottom4EducationForm {
+  margin-b6pxottom: 64px;
+}
+.SpacingClientCreateRoleSign {
+  margin-top: 40px;
+}
+.marginsBasedOnSkillsArray-mb8 {
+  margin-bottom: 8px;
+}
+.marginsBasedOnSkillsArray-mb16 {
+  margin-bottom: 16px;
+}
+.ClientSubmitButtonCol-MT40 {
+  margin-top: 40px;
+}
+.inputGreyNote {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #929292;
+  margin-bottom: 8px;
+}
+.IndependentInfoIcon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.agreementTitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.agreementBody {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.agreementBody strong {
+  font-weight: 700;
+}
+@media (max-width: 1200px) {
+  .hideOn1200DevSign {
+    display: none;
+  }
+  .showOn1200DevSign {
+    display: block;
+  }
+}
+@media (max-width: 992px) {
+  .ClientSubmitButtonCol-MT40 {
+    margin-top: 16px;
+  }
+  .MainImgDevSign {
+    display: none;
+  }
+  .formSpacing4BTNSGI {
+    margin-top: 16px;
+  }
+
+  .devSignMBAt992 {
+    margin-bottom: 16px;
+  }
+  .MainImgDevSign {
+    margin-top: 24px;
+  }
+  .spacingTopAndBottom {
+    align-items: center;
+  }
+  .hideColOn992 {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .clearBtn,
+  .greyFieldBtn {
+    margin-bottom: 8px;
+  }
+  .mb-8-ON-767px {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 575px) {
+  .sectionTitle-skipLinkContainerEE {
+    display: block;
+  }
+}

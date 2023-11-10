@@ -1,0 +1,349 @@
+.landing-navbar.darkMode {
+  background-color: #00121e !important;
+  background: #00121e !important;
+  box-shadow: 0px 4px 17px rgba(255, 255, 255, 0.04);
+}
+.TalnetLandingIntroductionSection {
+  background-color: #00121e !important;
+
+  min-height: 100vh;
+  padding-top: 72px;
+  display: flex;
+  position: relative;
+}
+.TitleAndTextDivForTalentLandingPage {
+  width: 50%;
+}
+.imageForTalentLanding {
+  width: 50%;
+}
+.imageForTalentLanding .showOnDesktop {
+  width: 85%;
+  height: auto;
+  float: right;
+}
+.TalentLandingH1 {
+  margin-top: 95px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.TalentLandingH1.marginTop0 {
+  margin-top: 0;
+}
+.TalentLandingH1 .underline {
+  text-decoration: underline;
+  text-decoration-color: #1fa3ff;
+  text-decoration-thickness: 4px;
+}
+.TalentLandingH1 .highlighted {
+  background-color: #1fa3ff;
+}
+.TalentLandingH1 .highlightedOrange {
+  background-color: #f66b0e;
+}
+.TalentLandingIntroductionP {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fffcf3;
+  margin-bottom: 48px;
+}
+.TalentLandingIntroductionHelpP {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-top: 24px;
+}
+.imageForTalentLanding .showOnMobile {
+  display: none;
+}
+.talentLandingHowDoestfHelpSection {
+  background-color: #00121e;
+  padding: 68px 0;
+}
+.talentLandingHowDoestfHelpDiv {
+  width: 100%;
+  min-height: 264px;
+  background: #fffefe;
+  backdrop-filter: blur(7.5px);
+  border-radius: 24px;
+  background-image: url(../../images/howDoesTFHelpBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  padding: 51px 30px;
+  position: relative;
+}
+.howDoesTitleBlack {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #181818;
+  margin-bottom: 36px;
+}
+.howDoesTitleBlack .orange {
+  color: #f66b0e;
+}
+.howDoesOverflowingImage {
+  position: absolute;
+  top: -52px;
+  width: 196px;
+  height: 307px;
+  right: 30px;
+}
+.howDoesUL {
+  padding-left: 48px;
+}
+.howDoesUL li {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #929292;
+  margin-bottom: 16px;
+  position: relative;
+}
+.howDoesUL li::marker {
+  content: none;
+  display: none;
+}
+.howDoesUL li::before {
+  content: url(../../images/orangeCheckCircle.svg);
+  position: absolute;
+  left: -48px;
+  bottom: -5px;
+}
+.howDoesOverflowingImage4Mobile {
+  display: none;
+}
+.talentLandingHowItWorksSection {
+  background-color: #00121e;
+  padding: 68px 0;
+}
+.howItWorksListItemWithImage {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+.howItWorksListItemWithImage p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.talentLandingWhyUseTFSection {
+  background-color: #00121e;
+  padding: 40px 0;
+}
+.talentLandingLighterColorBox {
+  background: #0e212f;
+  border-radius: 24px;
+  min-height: 243px;
+  padding: 40px 35px;
+}
+.whyYouShouldUseTFListItem {
+  text-align: center;
+}
+.whyYouShouldUseTFListItem p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 16px;
+  color: #ffffff;
+}
+.whyYouShouldUseTFListItem img {
+  margin-top: 16px;
+}
+.TalnetLandingYourNextJobH4 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.TalnetLandingYourNextJobH4 .underline {
+  text-decoration: underline;
+  text-decoration-color: #1fa3ff;
+  text-decoration-thickness: 6px;
+}
+.talentLandingFeaturesSection {
+  background-color: #00121e;
+  padding: 40px 0;
+  background-image: url(../../images/talentFeaturesSectionBG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.featuresImageLarge {
+  margin-top: 34px;
+}
+.featuresImageMobile {
+  display: none;
+}
+.talentLandingGreenDot {
+  position: absolute;
+  bottom: 101px;
+  left: 26px;
+}
+.talentLandingRedDot {
+  display: none;
+}
+@media (max-width: 992px) {
+  .TalnetLandingIntroductionSection {
+    min-height: fit-content;
+  }
+  .howDoesOverflowingImage {
+    display: none;
+  }
+  .howDoesOverflowingImage4Mobile {
+    display: block;
+    position: absolute;
+    top: -56px;
+    width: 134px;
+    height: 163px;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -2%);
+  }
+  .talentLandingHowDoestfHelpDiv {
+    padding-top: 127px;
+    background-size: auto;
+  }
+  .TalentLandingH1 {
+    margin-top: 95px;
+    font-size: 44px;
+    line-height: 55px;
+    margin-bottom: 16px;
+  }
+  .TalentLandingIntroductionP {
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .whyYouShouldUseTFListItem p {
+    text-align: start;
+  }
+  .whyYouShouldUseTFListItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: start;
+  }
+  .whyYouShouldUseTFListItem img {
+    margin-top: 0;
+  }
+  .howItWorksListItemWithImage img {
+    width: 24px;
+    height: 24px;
+  }
+  .howItWorksListItemWithImage p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .textCenterOn767,
+  .TalentLandingH1 {
+    text-align: center;
+  }
+  .hideon767 {
+    display: none;
+  }
+  .howDoesTitleBlack {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .howDoesUL li {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .howDoesUL li::before {
+    content: url(../../images/orangeCheckCircle -MOBILE.svg);
+    left: -32px;
+    top: 10px;
+  }
+  .howDoesUL {
+    padding-left: 32px;
+  }
+  .TalnetLandingIntroductionSection {
+    display: block;
+  }
+  .TitleAndTextDivForTalentLandingPage {
+    width: 100%;
+  }
+  .imageForTalentLanding {
+    width: 100%;
+  }
+  .imageForTalentLanding .showOnDesktop {
+    display: none;
+  }
+  .imageForTalentLanding .showOnMobile {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 575px) {
+  .talentLandingGreenDot {
+    top: 309px;
+    left: 18px;
+  }
+  .talentLandingRedDot {
+    display: block;
+    position: absolute;
+    top: 68px;
+    left: 12px;
+  }
+  .featuresImageLarge {
+    display: none;
+  }
+  .featuresImageMobile {
+    display: block;
+  }
+  .TalnetLandingYourNextJobH4 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 42px;
+  }
+  .whyYouShouldUseTFListItem img {
+    width: 24px;
+    height: 24px;
+  }
+  .whyYouShouldUseTFListItem p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .TalentLandingH1 {
+    margin-top: 47px;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+  .TalentLandingH1 .underline {
+    text-decoration-thickness: 2px;
+  }
+
+  .TalentLandingIntroductionP {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 16px;
+  }
+  .TalentLandingIntroductionHelpP {
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 16px;
+  }
+  .talentLandingHowDoestfHelpDiv {
+    background-image: url(../../images/howDoesTFHelpBG-MOBILE.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}

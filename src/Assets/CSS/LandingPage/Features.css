@@ -1,0 +1,49 @@
+.featuresLargeContainer {
+  margin: 64px 0;
+}
+.featuresTitleBlack {
+  color: #181818;
+  text-align: center;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 60px;
+}
+.featuresIMG {
+  width: 100%;
+  height: auto;
+  margin-bottom: 27px;
+}
+.featureCaption {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+@media (max-width: 992px) {
+  .featuresTitleBlack {
+    font-size: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .featuresTitleBlack {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .featureCaption {
+    font-size: 18px;
+  }
+}
+@media (max-width: 575px) {
+  .on575CenterFeatures {
+    text-align: center;
+  }
+  .featuresIMG {
+    width: 200px;
+    height: auto;
+    margin-bottom: 16px;
+  }
+}

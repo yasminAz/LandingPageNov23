@@ -1,0 +1,83 @@
+.ReferralClientBold {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 100.4%;  
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #181818;
+}
+.TextReferralClient {
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+/* Secondary/grey */
+
+color: #929292;;
+}
+.referralImage {
+  width: 100%;
+  position: relative;
+  top: -24px;
+}
+.referralPaddings24tb35lr {
+  padding: 24px 35px 16px 35px;
+}
+.hideOnMD {
+  display: block;
+}
+.hideOnMD5 {
+  display: none;
+}
+.referralsPcScreen {
+}
+.referralsMobileScreen {
+  display: none;
+}
+.moreOptionsReferralButton {
+  border: none;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: transparent;
+}
+.marginB16on767 {
+  margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .EarnReferral {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .TextReferral {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+@media (max-width: 767px) {
+  .marginB16on767 {
+    margin-bottom: 16px;
+  }
+  .referralsPcScreen {
+    display: none;
+  }
+  .referralsMobileScreen {
+    display: block;
+  }
+  .hideOnMD {
+    display: none;
+  }
+  .hideOnMD5 {
+    display: block;
+  }
+}

@@ -1,0 +1,91 @@
+.TapflowVsCompetitors-div {
+  background-color: #f5fbff;
+  padding: 40px 0;
+}
+.TapflowVsCompetitors-title {
+  color: #ffc900;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #fff;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 0 24px;
+}
+.TapflowVsCompetitors-title span {
+  color: #181818;
+}
+.TapflowVsCompetitors-SubTitlesDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 133px;
+}
+.TapflowVsCompetitors-SubTitle {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border-bottom: 1px solid #d4d4d4;
+  color: #d4d4d4;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 13px;
+  margin-bottom: 38px;
+  cursor: pointer;
+}
+.TapflowVsCompetitors-SubTitle.selected {
+  border-bottom: 1px solid #000;
+  color: #181818;
+}
+@media (max-width: 992px) {
+  .TapflowVsCompetitors-SubTitlesDiv {
+    display: flex;
+    gap: 15px;
+  }
+  .TapflowVsCompetitors-SubTitle span {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .TapflowVsCompetitors-title {
+    font-size: 48px;
+    padding: 0;
+  }
+  .TapflowVsCompetitors-titleAndImage h5 {
+    color: #181818;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+  }
+  .TapflowVsCompetitors-competitorList li {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 565px) {
+  .TapflowVsCompetitors-title {
+    font-size: 34px;
+  }
+  .TapflowVsCompetitors-titleAndImage h5 {
+    font-size: 20px;
+  }
+  .TapflowVsCompetitors-titleAndImage {
+    margin-bottom: 16px;
+  }
+  .TapflowVsCompetitors-competitorList li {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .whiteBoxAndBlackBorder {
+    padding: 21px;
+    margin-bottom: 16px;
+    height: fit-content;
+  }
+}

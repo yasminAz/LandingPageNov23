@@ -1,0 +1,31 @@
+.CandidateNameNotLink {
+  color: #1fa3ff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+.StageGreyBox.specialPadding {
+  padding: 12px;
+}
+.StageGreyBox .dropDownSmallBlackArrow .accordion-item {
+  background-color: transparent !important;
+}
+.StageGreyBox .blueBoxOfDataEE {
+  background: transparent !important;
+  padding: 0 !important;
+}
+.backbtn{
+    /* text-decoration: none; */
+    color: var(--primary-black, #181818);
+    font-feature-settings: lining-nums proportional-nums;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 0;
+    background: none;
+}

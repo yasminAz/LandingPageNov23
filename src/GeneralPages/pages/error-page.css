@@ -1,0 +1,53 @@
+.error-box {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 70px;
+  background-image: url(./images/error-box.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #ffffff;
+}
+.bold-msg {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 70px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000;
+}
+.error-msg {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.content {
+  padding: 70px;
+}
+.Error-body {
+  background-color: #fffcf3;
+  min-height: 100vh;
+}
+@media (max-width: 767px) {
+  .content {
+    padding: 0;
+  }
+  .bold-msg {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}

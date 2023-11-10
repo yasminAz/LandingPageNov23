@@ -1,0 +1,485 @@
+.Filled40Button {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  /* text-transform: capitalize; */
+  color: #ffffff;
+}
+.Filled56Button {
+  width: 100%;
+  height: 56px;
+  border-radius: 10px;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+}
+.Filled100Button {
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.Filled56Button.yellow {
+  background: #ffc900;
+  background-color: #ffc900;
+}
+.Filled100Button.yellow {
+  background: #ffc900;
+  background-color: #ffc900;
+}
+.Filled56Button.white {
+  background: #fff;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+.Filled56Button.white:hover {
+  background: #f3f3f3;
+}
+.TabButton {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #929292;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  /* text-transform: capitalize; */
+  color: #929292;
+  background-color: white;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+.TabButton.active {
+  border-bottom: 1px solid #1fa3ff;
+  color: #1fa3ff;
+}
+.Filled40Button.centeredButton {
+  margin-top: 32px;
+  width: 240px;
+}
+.Filled40Button.w-147 {
+  width: 147px;
+}
+.Filled32Button.mb-8 {
+  margin-bottom: 8px;
+}
+.Filled32Button.w-210 {
+  width: 210px;
+}
+.Filled40Button.orange {
+  background-color: #f66b0e;
+  background: #f66b0e;
+}
+.Filled40Button.transparentBlackWithUnderline {
+  background-color: white;
+  background: white;
+  color: #181818;
+  text-decoration: underline;
+}
+.Filled40Button.whiteAndBlueText {
+  background-color: #ffffff;
+  background: #ffffff;
+  color: #1fa3ff;
+}
+.Filled40Button.w-154,
+.Filled32Button.w-154 {
+  width: 154px;
+}
+.Filled40Button.grey {
+  background-color: #f3f3f3;
+  background: #f3f3f3;
+  color: #929292;
+}
+.Filled40Button.grey:hover {
+  background-color: #dddddd;
+  background: #dddddd;
+}
+.Filled40Button.grey:disabled,
+.Filled40Button.grey:disabled:hover {
+  background-color: #f3f3f3 !important;
+  background: #f3f3f3 !important;
+}
+.Filled40Button.clientYellow,
+.Filled32Button.clientYellow {
+  background-color: #ffc900;
+  background: #ffc900;
+  color: #181818 !important;
+}
+.Filled40Button.green,
+.Filled32Button.green {
+  background-color: #469763;
+  background: #469763;
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: center;
+}
+.Filled40Button.clientYellow:hover,
+.Filled32Button.clientYellow:hover,
+.Filled100Button.yellow:hover,
+.Filled56Button.yellow:hover {
+  background-color: #ddad01;
+  background: #ddad01;
+}
+.Filled40Button.clientYellow:disabled:hover,
+.Filled32Button.clientYellow:disabled:hover {
+  background-color: #ffc900;
+  background: #ffc900;
+}
+.Filled32Button.w-240 {
+  width: 240px;
+}
+.Filled32Button.w-113 {
+  width: 113px;
+}
+.Filled32Button.w-161 {
+  width: 161px;
+}
+.Filled40Button.w-176 {
+  width: 176px;
+}
+.Filled32Button.orange {
+  background-color: #f66b0e;
+  background: #f66b0e;
+  color: #ffffff;
+}
+.Filled40Button.orange:hover {
+  background-color: #e06310;
+  background: #e06310;
+}
+.Filled40Button.lightOrange {
+  background-color: rgba(246, 107, 14, 0.15);
+  background: rgba(246, 107, 14, 0.15);
+  color: rgba(246, 107, 14, 1);
+}
+.Filled40Button.lightOrange:hover {
+  background-color: rgba(246, 107, 14, 0.4);
+  background: rgba(246, 107, 14, 0.4);
+}
+.Filled40Button.orangeOutline {
+  border: 1px solid #f66b0e;
+  background-color: transparent;
+  color: #f66b0e;
+}
+.Filled40Button.blueOutline {
+  border: 1px solid rgb(31, 163, 255);
+  background-color: white;
+  color: #1fa3ff;
+}
+.Filled40Button.blueOutline:disabled,
+.Filled32Button.blueOutline:disabled {
+  border: 1px solid #929292;
+  background-color: white !important;
+  color: #929292;
+}
+.Filled32Button.orangeOutline {
+  border: 1px solid #f66b0e;
+  background-color: white;
+  color: #f66b0e;
+}
+.Filled32Button.blueOutline {
+  border: 1px solid rgb(31, 163, 255);
+  background-color: white;
+  color: #1fa3ff;
+}
+.Filled32Button.orangeOutline.marginB16 {
+  margin-bottom: 16px;
+}
+.Filled40Button.orangeOutline:hover {
+  background-color: rgba(246, 107, 14, 0.15);
+}
+.Filled32Button.blueOutline:hover,
+.Filled40Button.blueOutline:hover {
+  background-color: rgba(31, 163, 255, 0.15);
+}
+.Filled40Button:disabled,
+.Filled32Button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.Filled40Button.orange:disabled:hover {
+  background-color: #f66b0e;
+  background: #f66b0e;
+}
+.Filled40Button.orangeOutline:disabled:hover,
+.Filled40Button.orangeOutline:disabled {
+  border: 1px solid #929292;
+  background-color: white;
+  color: #929292;
+}
+
+.Filled40Button.white {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 17px rgba(180, 180, 180, 0.16);
+  border-radius: 10px;
+  color: #181818;
+}
+.Filled32Button {
+  width: 100%;
+  height: 32px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  /* text-transform: capitalize; */
+}
+.Filled24Button {
+  width: 100%;
+  height: 24px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  /* text-transform: capitalize; */
+}
+.ShadowIconBtn {
+  width: 100%;
+  height: 32px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  /* text-transform: capitalize; */
+  background: #ffffff;
+  box-shadow: 0px 4px 17px rgba(180, 180, 180, 0.16);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ShadowIconBtn svg {
+  margin-right: 4px;
+}
+.ShadowIconBtn.edit {
+  color: #1fa3ff;
+}
+.ShadowIconBtn.view {
+  color: rgba(146, 146, 146, 1);
+}
+.ShadowIconBtn:hover {
+  background: #f3f3f3;
+}
+.ShadowIconBtn:disabled:hover,
+.ShadowIconBtn:disabled {
+  background: #f3f3f3;
+  cursor: none;
+}
+/* grey text/ transparent bg */
+.Filled32Button.greyTransBG,
+.Filled24Button.greyTransBG {
+  background: transparent;
+  color: rgba(146, 146, 146, 1);
+}
+.Filled32Button.greyTransBG:hover,
+.Filled24Button.greyTransBG:hover {
+  background: rgba(243, 243, 243, 1);
+}
+/* blue bg */
+.Filled32Button.blue,
+.Filled40Button.blue {
+  background: #1fa3ff;
+  color: #ffffff;
+}
+.Filled32Button.blue:hover,
+.Filled40Button.blue:hover {
+  background: rgba(27, 140, 218, 1);
+}
+.Filled32Button.blue:disabled:hover,
+.Filled40Button.blue:disabled:hover {
+  background: #1fa3ff;
+}
+/* red text / transparent bg */
+.Filled32Button.redTransBG {
+  background: transparent;
+  color: rgba(239, 30, 30, 1);
+}
+.Filled32Button.redTransBG:hover {
+  background: rgba(239, 30, 30, 0.1);
+}
+.Filled24Button.redLightBG {
+  background: rgba(239, 30, 30, 0.1);
+}
+.Filled40Button.redTransBG {
+  background: transparent;
+  color: rgba(239, 30, 30, 1);
+}
+.Filled40Button.redTransBG:hover {
+  background: rgba(239, 30, 30, 0.1);
+}
+.Filled40Button.redTransBG:disabled,
+.Filled40Button.redTransBG:disabled:hover,
+.Filled32Button.redTransBG:disabled,
+.Filled32Button.redTransBG:disabled:hover {
+  background: transparent !important;
+  color: #929292;
+}
+
+/* No border button */
+.noBorderBtn {
+  font-weight: 700;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 32px;
+  /* text-transform: capitalize; */
+}
+.noBorderBtn.true {
+  cursor: not-allowed;
+}
+.noBorderBtn.offerBlue {
+  border-left: 1px solid rgba(196, 196, 196, 0.5);
+  padding-left: 13px;
+}
+.noBorderBtn.interviewBlue {
+  border-left: 1px solid rgba(196, 196, 196, 0.5);
+  padding-left: 13px;
+}
+.noBorderBtn.noMargins4Icon svg {
+  margin: 0 !important;
+}
+.noBorderBtn.edit,
+.noBorderBtn.add,
+.noBorderBtn.success,
+.noBorderBtn.settings,
+.noBorderBtn.copy,
+.noBorderBtn.ai {
+  color: #1fa3ff;
+}
+.noBorderBtn.remove,
+.noBorderBtn.disqualify,
+.noBorderBtn.dislike.true,
+.noBorderBtn.rejected {
+  color: #ef1e1e;
+}
+.noBorderBtn.mark.false,
+.noBorderBtn.email,
+.noBorderBtn.dislike.false,
+.noBorderBtn.like.false,
+.noBorderBtn.qualify,
+.noBorderBtn.comment,
+.noBorderBtn.interview,
+.noBorderBtn.offer,
+.noBorderBtn.delete,
+.noBorderBtn.cancel {
+  color: #929292;
+}
+.noBorderBtn.mark.false::after {
+  content: "Mark as actively hiring";
+}
+/* .noBorderBtn.like.false::after {
+  content: "Like";
+}
+.noBorderBtn.like.true::after {
+  content: "Liked";
+}
+.noBorderBtn.dislike.false::after {
+  content: "Dislike";
+}
+.noBorderBtn.dislike.true::after {
+  content: "Disliked";
+} */
+.noBorderBtn.noContent::after {
+  content: none !important;
+}
+.noBorderBtn.mark.true,
+.noBorderBtn.like.true,
+.noBorderBtn.accepted {
+  color: #469763;
+}
+.noBorderBtn.mark.true::after {
+  content: "Marked as actively hiring  ";
+}
+.noBorderBtn svg {
+  margin-right: 4px;
+}
+.mark {
+  background-color: transparent;
+}
+.Filled32Button.clientYellow {
+  background-color: #ffc900;
+  background: #ffc900;
+  color: #181818 !important;
+}
+
+.Filled32Button.clientYellow:hover {
+  background-color: #ddad01;
+  background: #ddad01;
+}
+.marginTop44 {
+  margin-top: 44px;
+}
+.marginTop16 {
+  margin-top: 16px;
+}
+.plusBtn {
+  width: 31px !important;
+  border-radius: 0 5px 5px 0;
+}
+.minusBtn {
+  width: 31px !important;
+  border-radius: 5px 0px 0px 5px;
+  color: #c4c4c4;
+}
+
+@media (max-width: 992px) {
+  .mark::after {
+    content: "Actively Hiring" !important;
+  }
+}
+@media (max-width: 575px) {
+  .Filled32Button.w-161 {
+    width: 100%;
+  }
+  .Filled40Button.w-154 {
+    width: fit-content;
+  }
+}
+@media (max-width: 767px) {
+  .noBorderBtn.like.false::after {
+    content: "Like";
+  }
+  .noBorderBtn.like.true::after {
+    content: "Liked";
+  }
+  .noBorderBtn.dislike.false::after {
+    content: "Dislike";
+  }
+  .noBorderBtn.dislike.true::after {
+    content: "Disliked";
+  }
+}

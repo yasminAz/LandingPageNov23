@@ -1,0 +1,62 @@
+.seperator4event {
+  border: 1px solid rgba(196, 196, 196, 1);
+}
+.eventPopUpLabelAndAddBTN {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.eventPopUpLabelAndAddBTN .LabelForInput {
+  margin: 0;
+}
+.eventGreyMessage {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #c4c4c4;
+  margin-top: 30px;
+}
+.deletableBlueBubble {
+  background: rgba(31, 163, 255, 0.1);
+  border-radius: 20px;
+  width: 110px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 0 9px;
+  margin-bottom: 8px;
+}
+.deletableBlueBubble label {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #1fa3ff;
+}
+.selectMultiDates {
+  background-color: red;
+  color: white;
+}
+.selectMultiDates.selected {
+  background-color: rgba(255, 0, 0, 0.468);
+  color: white;
+}
+.deletableBlueBubbleTimeSlot {
+  background: rgba(31, 163, 255, 0.1);
+  border-radius: 20px;
+  width: 110px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 9px;
+  margin-bottom: 8px;
+}
+.deletableBlueBubbleTimeSlot label {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #1fa3ff;
+}

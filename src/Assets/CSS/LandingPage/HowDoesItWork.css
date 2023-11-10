@@ -1,0 +1,177 @@
+.HowDoesItWork-container {
+  padding: 52px 0 93px 0;
+}
+.HowDoesItWork-title {
+  color: #181818;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.HowDoesItWork-box {
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: #fff;
+  padding: 22px 26px;
+  margin-bottom: 25px;
+  z-index: 1;
+  position: relative;
+  cursor: pointer;
+}
+.HowDoesItWork-box::before {
+  width: 4px;
+  height: 25px;
+  background-color: #000;
+  content: "";
+  position: absolute;
+  top: -26px;
+  left: 50%;
+}
+.HowDoesItWork-box.selected {
+  border-radius: 10px;
+  border: 1px solid #1fa3ff;
+  border-bottom: 5px solid #1fa3ff;
+  animation: pulse-animation 2s;
+}
+.HowDoesItWork-box.selectedBefore {
+  border: 1px solid #1fa3ff;
+}
+.HowDoesItWork-box.selected::before,
+.HowDoesItWork-box.selectedBefore::before {
+  width: 4px;
+  height: 25px;
+  background-color: #1fa3ff;
+  content: "";
+  position: absolute;
+  top: -26px;
+  left: 50%;
+}
+.HowDoesItWork-boxTitle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.HowDoesItWork-boxTitle h5 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.HowDoesItWork-boxText {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.HowDoesItWork-div {
+  padding-right: 40px;
+  position: relative;
+}
+.HowDoesItWork-progressBar {
+  position: absolute;
+  transform: rotate(90deg);
+  width: 870px;
+  top: 506px;
+  left: -120px;
+  height: 4px;
+  background-color: #000;
+  overflow: unset;
+}
+.HowDoesItWork-progressBar .progress-bar {
+  background-color: #1fa3ff;
+}
+.HowDoesItWork-progressBar::before {
+  height: 12px;
+  width: 12px;
+  background-color: #1fa3ff;
+  border-radius: 50%;
+  content: "";
+  top: -4px;
+  position: relative;
+}
+/* .HowDoesItWork-div::after {
+  height: 12px;
+  width: 12px;
+  background-color: #000;
+  border-radius: 50%;
+  content: "";
+  position: relative;
+  display: block;
+  left: 309px;
+  top: 35px;
+} */
+.HowDoesItWork-boxTitle.adjustArrow {
+  margin-bottom: 22px;
+}
+.HowDoesItWork-boxTitle.adjustArrow img {
+  transform: rotate(90deg);
+  margin-top: 10px;
+}
+.specialBefore::before {
+  content: url(../../images/beginingOfTimeline.svg) !important;
+  top: -33px !important;
+  left: 49.5% !important;
+  height: 0 !important;
+}
+.HowDoesItWork-box.endAfter::after {
+  content: url(../../images/endOfTimeline.svg) !important;
+  position: absolute;
+  bottom: -64px;
+  left: 49.5%;
+}
+.HowDoesItWork-box.endAfter {
+  margin-bottom: 60px;
+}
+.HowDoesItWork-box.selected.endAfter::after,
+.HowDoesItWork-box.endAfter.selectedBefore::after {
+  content: url(../../images/endOfTimelineBlue.svg) !important;
+}
+.HowDoesItWork-LargeImage {
+  max-height: 700px;
+}
+.HowDoesItWork-LargeImageCol {
+  display: flex;
+  justify-content: flex-end;
+}
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px #1fa2ff83;
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
+@media (max-width: 1200px) {
+  .HowDoesItWork-progressBar {
+    display: none;
+  }
+  .HowDoesItWork-div::after {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .HowDoesItWork-div {
+    padding-right: 0;
+  }
+  .HowDoesItWork-LargeImage {
+    max-height: 100%;
+  }
+}
+@media (max-width: 565px) {
+  .HowDoesItWork-title {
+    font-size: 34px;
+    text-align: center;
+  }
+  .HowDoesItWork-boxTitle h5 {
+    font-size: 20px;
+  }
+  .HowDoesItWork-boxText {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+}

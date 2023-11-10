@@ -1,0 +1,64 @@
+.askToApplyAccordion {
+  margin-bottom: 16px;
+}
+.askToApplyAccordion .accordion-item {
+  border-radius: 5px;
+  border: 1px solid var(--lines, rgba(196, 196, 196, 0.5));
+  background: #fafafa;
+}
+.askToApplyAccordion .accordion-button {
+  color: #181818;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 5px !important;
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  padding: 12px 8px;
+  gap: 4px;
+}
+.askToApplyAccordion .accordion-button.collapsed svg {
+  transform: rotate(-90deg);
+}
+.askToApplyAccordion .accordion-button::after {
+  display: none !important;
+}
+.askToApplyAccordion ol {
+  padding: 0 20px;
+}
+.askToApplyAccordion ol li {
+  color: #929292;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.askToApplyAccordion ol li a {
+  color: #1fa3ff;
+}
+.askToApplyAccordion .accordion-body {
+  padding: 14px 8px;
+}
+.askToApplyAccordion .noBorderBtn.copy {
+  float: right;
+  font-weight: 600;
+}
+.Ask2ApplyWarningAndCharCounter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Ask2ApplyWarningAndCharCounter .warningText {
+  color: #f66b0e;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.Ask2ApplyWarningAndCharCounter .warningText svg {
+  margin-right: 4px;
+}
+.Ask2ApplyWarningAndCharCounter .charCounter {
+  margin: 0;
+}

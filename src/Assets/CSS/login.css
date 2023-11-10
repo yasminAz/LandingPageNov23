@@ -1,0 +1,67 @@
+.raisedbox {
+  border: 1px outset #999;
+  -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 60%;
+  width: 30%;
+}
+.forget-pass-col {
+  display: flex;
+  align-items: center;
+}
+.fl-login-form-box {
+  width: 90%;
+  margin: 0 5%;
+}
+
+.fl-login-input {
+  width: 100%;
+  margin: 10px 0;
+}
+.forget-pass-col {
+  display: flex;
+  align-items: center;
+}
+.forgot-pass {
+  color: black;
+  text-decoration: none;
+}
+.forgot-pass:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.login-btn {
+  color: #49505b;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.login-btn :hover {
+  text-decoration: underline;
+}
+
+.client-side.Submit-button.active {
+  background-color: #ffc900 !important;
+}
+@media (max-width: 576px) {
+  .forget-pass-col {
+    justify-content: center;
+  }
+  .login-modal.Submit-button {
+    float: inherit !important;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .landing-navbar .navbar-nav a {
+    font-size: 18px;
+    padding: 10px !important;
+  }
+}

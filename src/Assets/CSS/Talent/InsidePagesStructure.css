@@ -1,0 +1,586 @@
+.TalentMainContainer {
+  background-color: white;
+  min-height: 100vh;
+}
+.container-fluid.Container35px {
+  padding: 0 35px;
+}
+.container-fluid.BodyContainer35px {
+  padding-top: 39px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 71px;
+}
+.talentNavBar {
+  padding: 12px 0 !important;
+  box-shadow: 0px 4px 17px rgba(180, 180, 180, 0.16);
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+  z-index: 10;
+}
+.talentNavBarLogo {
+  width: 84px;
+  height: 22.64px;
+  object-fit: contain;
+}
+.talentNavBarContentAndDropContents {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.TalentNavStyling {
+  background: #fafafa;
+  border-radius: 50px;
+  min-height: 48px;
+  padding: 0 15px;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: center;
+}
+.TalentNavStyling .dropdown {
+  padding: 0 !important;
+}
+.talentNavBarProfileImgAndText img {
+  width: 31px;
+  height: 31px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #f66b0e;
+  background-color: #f66b0e;
+}
+.talentNavBarProfileImgAndText {
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-align: center !important;
+  text-transform: capitalize !important;
+  color: #181818 !important;
+  background-color: transparent !important;
+  padding: 0;
+  border: none;
+  box-shadow: none !important;
+  outline: unset !important;
+}
+.talentNavBarProfileImgAndText:hover,
+.show > .talentNavBarProfileImgAndText.dropdown-toggle,
+.show > .talentNavBarProfileImgAndText.dropdown-toggle:focus {
+  background-color: transparent;
+  color: rgba(246, 107, 14, 1) !important;
+  box-shadow: none !important;
+  outline: unset !important;
+}
+.talentNavBarProfileImgAndText::after {
+  content: none;
+}
+
+.talentNavBarProfileImgAndText span {
+  margin-left: 7px;
+}
+.talentNavBarProfileImgAndText .NotificationImgBox {
+  width: 24px;
+  height: 24px;
+  background-image: url(../../images/TalentNotificationsIcon.svg);
+}
+.talentNavBarProfileImgAndText .NotificationImgBox:hover,
+.show > .talentNavBarProfileImgAndText.dropdown-toggle .NotificationImgBox,
+.show
+  > .talentNavBarProfileImgAndText.dropdown-toggle
+  .NotificationImgBox:focus {
+  background-image: url(../../images/TalentNotificationsIconHover.svg);
+}
+/* if there are notifications */
+.talentNavBarProfileImgAndText .NotificationImgBox.New {
+  background-image: url(../../images/TalentNotificationsIconNew.svg);
+}
+.talentNavBarProfileImgAndText .NotificationImgBox.New:hover,
+.show > .talentNavBarProfileImgAndText.dropdown-toggle .NotificationImgBox.New,
+.show
+  > .talentNavBarProfileImgAndText.dropdown-toggle
+  .NotificationImgBox.New:focus {
+  background-image: url(../../images/TalentNotificationsIconNewHover.svg);
+}
+/* chat */
+.talentNavBarProfileImgAndText .chatImgBox {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-image: url(../../images/TalentChat.svg);
+}
+.talentNavBarProfileImgAndText .chatImgBox:hover,
+.show > .talentNavBarProfileImgAndText.dropdown-toggle .chatImgBox,
+.show > .talentNavBarProfileImgAndText.dropdown-toggle .chatImgBox:focus {
+  background-image: url(../../images/TalentChatHover.svg);
+}
+/* if there are notifications */
+.talentNavBarProfileImgAndText .chatImgBox.New {
+  background-image: url(../../images/TalentChatNew.svg);
+}
+.talentNavBarProfileImgAndText .chatImgBox.New:hover,
+.show > .talentNavBarProfileImgAndText.dropdown-toggle .chatImgBox.New,
+.show > .talentNavBarProfileImgAndText.dropdown-toggle .chatImgBox.New:focus {
+  background-image: url(../../images/TalentChatHoverNew.svg);
+}
+
+.showOn767 {
+  display: none;
+}
+.TalentMainContainerBody {
+  margin-top: 72px;
+  margin-left: 222px;
+  margin-right: 0;
+}
+.TalentSideMenu {
+  position: fixed;
+  background-color: white;
+  width: 222px;
+  min-height: 100%;
+  border-right: 1px solid rgba(196, 196, 196, 0.5);
+  padding: 40px 35px;
+}
+.TalentSideMenuUl {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+.TalentSideMenuUl li {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+.TalentSideMenuUl .SideLink {
+  min-height: 40px;
+  width: 100%;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  padding: 12px 8px;
+  text-decoration: none;
+}
+.TalentSideMenuUl .SideLink.active,
+.TalentSideMenuUl .SideLink:hover {
+  background-color: rgba(247, 122, 39, 0.15);
+  border-radius: 5px;
+}
+.TalentSideMenuUl .SideLink p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #929292;
+  margin-left: 8px;
+  margin-bottom: 0;
+  width: 90%;
+}
+.TalentSideMenuUl .SideLink.active p,
+.TalentSideMenuUl .SideLink:hover p {
+  color: rgba(247, 122, 39, 1);
+}
+.TalentSideMenuUl .SideLink .sideIcon {
+  width: 16px;
+  height: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.talentSideMenuProfileIcon {
+  background-image: url(../../images/TalentSideMenuProfileIcon.svg);
+}
+.talentSideMenuDashboardIcon {
+  background-image: url(../../images/TalentDashboardIcon.svg);
+}
+.talentSideMenuRolesIcon {
+  background-image: url(../../images/talentroleIcon.svg);
+}
+
+.TalentSideMenuUl .SideLink.active .talentSideMenuRolesIcon,
+.TalentSideMenuUl .SideLink:hover .talentSideMenuRolesIcon {
+  background-image: url(../../images/talentroleIconActive.svg);
+}
+.TalentSideMenuUl .SideLink.active .talentSideMenuDashboardIcon,
+.TalentSideMenuUl .SideLink:hover .talentSideMenuDashboardIcon {
+  background-image: url(../../images/TalentDashboardIconActive.svg);
+}
+.TalentSideMenuUl .SideLink.active .talentSideMenuProfileIcon,
+.TalentSideMenuUl .SideLink:hover .talentSideMenuProfileIcon {
+  background-image: url(../../images/TalentSideMenuProfileIconActive.svg);
+}
+.talentSideMenuReferralIcon {
+  background-image: url(../../images/TalentSideMenuReferralIcon.svg);
+}
+.TalentSideMenuUl .SideLink.active .talentSideMenuReferralIcon,
+.TalentSideMenuUl .SideLink:hover .talentSideMenuReferralIcon {
+  background-image: url(../../images/TalentSideMenuReferralIconActive.svg);
+}
+.talentSideMenuMessagesIcon {
+  background-image: url(../../images/TalentChat.svg);
+}
+.TalentSideMenuUl .SideLink.active .talentSideMenuMessagesIcon,
+.TalentSideMenuUl .SideLink:hover .talentSideMenuMessagesIcon {
+  background-image: url(../../images/TalentChatHover.svg);
+}
+.talentSideMenuNotificationIcon {
+  background-image: url(../../images/TalentNotificationsIcon.svg);
+}
+.TalentSideMenuUl .SideLink.active .talentSideMenuNotificationIcon,
+.TalentSideMenuUl .SideLink:hover .talentSideMenuNotificationIcon {
+  background-image: url(../../images/TalentNotificationsIconHover.svg);
+}
+.TalentSideMenuButton {
+  margin-bottom: 40px;
+}
+.modal-w570 {
+  width: 570px !important;
+  max-width: 570px !important;
+}
+.modal-w570 .modal-content {
+  border-radius: 24px !important;
+  padding: 32px 0;
+  position: relative;
+}
+
+.talentModalTitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #181818;
+  margin-bottom: 24px;
+}
+.talentModalTitle.lessMargin {
+  margin-bottom: 4px;
+}
+.talentModalSubtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1fa3ff;
+  margin-bottom: 16px;
+}
+.closeModalRedX {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  position: absolute;
+  top: 17px;
+  right: 17px;
+  cursor: pointer;
+}
+.talentModalStructure {
+  padding: 0 32px;
+}
+.talentModalBody {
+  padding: 0 32px;
+}
+.talentModalBody::-webkit-scrollbar,
+.talentModalBody > *::-webkit-scrollbar,
+.textArea::-webkit-scrollbar {
+  height: 4px;
+  border-radius: 10px;
+  width: 4px !important;
+}
+
+.talentModalBody::-webkit-scrollbar-track,
+.talentModalBody > *::-webkit-scrollbar-track,
+.textArea::-webkit-scrollbar-track {
+  background: white !important;
+  cursor: e-resize;
+  width: 3px;
+}
+
+/* Handle */
+.talentModalBody::-webkit-scrollbar-thumb,
+.talentModalBody > *::-webkit-scrollbar-thumb,
+.textArea::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  width: 3px;
+  background: #f66b0e90 !important;
+  cursor: e-resize;
+}
+
+/* Handle on hover */
+.talentModalBody::-webkit-scrollbar-thumb:hover,
+.talentModalBody > *::-webkit-scrollbar-thumb:hover,
+.textArea::-webkit-scrollbar-thumb:hover {
+  background: #f66b0e !important;
+  width: 3px;
+}
+.hiddenOnDesktop {
+  display: none !important;
+}
+.modal-bottom {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+.modal-bottom .modal-content {
+  border-radius: 24px 24px 0 0 !important;
+  padding: 55px 21px 13px 21px;
+  position: relative;
+  min-height: 126px;
+}
+.showOn767Navbar {
+  display: none;
+}
+.ColoredCircle {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+.ColoredCircle.Yellow {
+  background-color: #ffc900;
+}
+.ColoredCircle.Orange {
+  background-color: #f77a27;
+}
+.ColoredCircle.Green {
+  background-color: #469763;
+}
+.ColoredCircle.Blue {
+  background-color: #1fa3ff;
+}
+.ColoredCircle.Red {
+  background-color: #ef1e1e;
+}
+.orangeFileViewButton {
+  border: 1px solid #f66b0e;
+  border-radius: 10px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 12px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+.orangeFileViewButton img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.orangeFileViewButton p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 0;
+  color: #f66b0e;
+}
+.orangeFileViewButton:hover {
+  background: rgba(246, 107, 14, 0.1);
+}
+.container-fluid.Banner4Container35px {
+  padding-left: 20px;
+  padding-right: 35px;
+}
+.OffersBanner {
+  background: #fafafa;
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  box-shadow: 0px 4px 11px rgba(120, 120, 120, 0.24);
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+}
+.OffersBannerEmojiTextGroup {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.OffersBannerEmoji {
+  width: 32px;
+  height: 32px;
+}
+.OffersBannerTextAndLink {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin: 0;
+}
+.OffersBannerTextAndLink a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline !important;
+  color: #1fa3ff !important;
+}
+.OffersBannerContainer {
+  display: flex;
+  padding: 17px 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.OffersBannerContainer button {
+  width: 152px;
+}
+.jobOfferImage {
+  width: 100%;
+}
+.viewInTalentPopup {
+  margin: 0 0 40px 0 !important;
+}
+.CompleteProfileImage {
+  margin-bottom: 16px;
+}
+.modal-side {
+  width: 578px !important;
+  float: right !important;
+  max-width: 578px !important;
+  height: fit-content;
+  min-height: 100vh;
+  margin: 0;
+}
+.modal-side .modal-content {
+  border-radius: 0 !important;
+  width: 100%;
+  padding: 32px 0;
+  min-height: 100vh;
+}
+.modal {
+  padding: 0 !important;
+}
+.buttonAndStatus4AppliedCard {
+  position: absolute;
+  bottom: 14px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.buttonAndStatus4AppliedCard .Gray14Text {
+  text-transform: uppercase;
+}
+.talentModalTitle.roleModalText {
+  margin-bottom: 8px;
+}
+.talentModalSubtitle.roleModalText,
+.ValueGreyText.roleModalText {
+  margin-bottom: 4px;
+}
+@media (max-width: 1200px) {
+  .tempHideOn1200 {
+    display: none;
+  }
+  .hiddenOnDesktop {
+    display: block !important;
+  }
+  .TalentSideMenuUl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+  .TalentSideMenuUl .SideLink {
+    min-height: 100%;
+    display: block;
+    padding: 0;
+    background-color: transparent !important;
+  }
+  .TalentSideMenuUl .SideLink .sideIcon {
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-bottom: 2px;
+  }
+  .TalentSideMenuUl .SideLink p {
+    margin-left: 0;
+    width: 100%;
+  }
+  .TalentSideMenu {
+    background-color: #fafafa;
+    width: 100%;
+    min-height: 64px;
+    border-right: none;
+    padding: 11px 0 15px 0;
+    bottom: 0;
+    border-top: 1px solid rgba(196, 196, 196, 0.5);
+    z-index: 10;
+  }
+  .TalentMainContainerBody {
+    margin-left: 0;
+  }
+  .TalentSideMenuButton {
+    display: none;
+  }
+  .TalentMainContainerBody {
+    margin-bottom: 110px;
+  }
+}
+@media (max-width: 992px) {
+  .modal-side {
+    width: 100% !important;
+    float: unset !important;
+    max-width: 100% !important;
+  }
+  .container-fluid.Banner4Container35px {
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+  }
+  .container-fluid.Container35px {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 767px) {
+  .showOn767Navbar {
+    display: block;
+  }
+  .hideOn767Navbar {
+    display: none;
+  }
+  .modal-w570 {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0;
+  }
+  .TalentMainContainerBody {
+    margin-top: 62px;
+    margin-bottom: 110px;
+  }
+  .talentNavBarProfileImgAndText {
+    display: flex;
+    align-items: center;
+  }
+  .showOn767 {
+    display: block;
+  }
+  .talentNavBarContentAndDropContents {
+    justify-content: center;
+  }
+  .TalentNavStyling {
+    margin-top: 8px;
+    padding-top: 8px;
+    width: 100%;
+    background: #fff;
+    align-items: flex-start;
+    border-top: 1px solid #9c9c9c;
+    border-radius: 0;
+    justify-content: center;
+  }
+}
+@media (max-width: 575px) {
+  .OffersBannerTextAndLink {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .OffersBannerTextAndLink a {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .TalentSideMenuUl {
+    gap: 10px;
+  }
+  .TalentMainContainerBody {
+    margin-top: 62px;
+    margin-bottom: 110px;
+  }
+  .hideOn575 {
+    display: none;
+  }
+  .TalentSideMenuButton {
+    margin-bottom: 20px;
+  }
+  .TalentMainContainerBody {
+    margin-left: 0px;
+  }
+}

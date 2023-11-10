@@ -1,0 +1,19 @@
+.p404-cont {
+  padding: 150px 0 50px 0;
+}
+.div404 img {
+  width: 567px;
+  height: 410px;
+  object-fit: contain;
+}
+.div404 {
+  text-align: center;
+}
+.error404Text {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #929292;
+  margin-bottom: 26px;
+}

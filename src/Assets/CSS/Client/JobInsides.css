@@ -1,0 +1,987 @@
+.jobTitleAndActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 16px;
+}
+.jobTitleAndActions-titleAndDisqualified {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.jobTitleAndActions-titleAndDisqualified h2 {
+  color: #181818;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.disqualifiedSquavalButton {
+  display: flex;
+  padding: 9px 20px 9px 21px;
+  justify-content: center;
+  align-items: center;
+  color: #929292;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 50px;
+  border: 1px solid #929292;
+  box-shadow: 0px 4px 17px 0px rgba(180, 180, 180, 0.16);
+  cursor: pointer;
+  min-width: 150px;
+  gap: 8px;
+}
+.disqualifiedSquavalButton.blue {
+  color: #1fa3ff;
+  border: 1px solid #1fa3ff;
+}
+.jobTitleAndActions-Actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+}
+.jobTitleAndActions-Actions .Filled32Button {
+  width: 146px;
+}
+.StageGreyBox {
+  border-radius: 7px;
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  background: #fafafa;
+  min-height: 70vh;
+}
+.StageGreyBox-titleAndMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 20px;
+}
+.StageGreyBox-titleAndMenu h3 {
+  color: #181818;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.StageGreyBox-ScrollableBox {
+  width: 100%;
+  height: 61vh;
+  overflow-y: auto;
+  padding: 0 20px;
+}
+.StageGreyBox-ScrollableBox-flowBox .FlowTitle {
+  color: #181818;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 7px;
+}
+.StageGreyBox-ScrollableBox-flowBox .FlowTitle.open {
+  color: #469763;
+}
+.StageGreyBox-ScrollableBox-flowBox .FlowTitle.processing {
+  color: #1fa3ff;
+}
+.StageGreyBox-ScrollableBox-flowBox .FlowTitle.review {
+  color: #f66b0e;
+}
+.StageGreyBox-ScrollableBox-flowBox .FlowTitle.error {
+  color: #ef1e1e;
+}
+.StageGreyBox-ScrollableBox.FULLVIEW .StageGreyBox-ScrollableBox-flowBox {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  gap: 15px;
+}
+.StageGreyBox-ScrollableBox.FULLVIEW
+  .StageGreyBox-ScrollableBox-flowBox
+  .FlowTitle {
+  flex: 1 1 100%;
+  margin-bottom: 0;
+}
+.StageGreyBox-ScrollableBox.FULLVIEW .WhiteCandidateBox {
+  flex: 0 0 auto;
+  width: 32.2%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+.WhiteCandidateBox {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 4px 17px 0px rgba(180, 180, 180, 0.16);
+  min-height: 315px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 17px;
+  padding: 25px 18px 15px 18px;
+}
+.WhiteCandidateBox.selected {
+  border: 1px solid #1fa3ff;
+}
+.WhiteCandidateBox-candidateCheckbox {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.StageGreyBox-ScrollableBox::-webkit-scrollbar {
+  height: 4px;
+  border-radius: 10px;
+  width: 4px;
+}
+
+.StageGreyBox-ScrollableBox::-webkit-scrollbar-track {
+  background: transparent !important;
+  cursor: e-resize;
+}
+
+/* Handle */
+.StageGreyBox-ScrollableBox::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  width: 1px;
+  background: #b7b7b7;
+}
+
+/* Handle on hover */
+.StageGreyBox-ScrollableBox::-webkit-scrollbar-thumb:hover {
+  background: #8a8a8a;
+}
+
+.WhiteCandidateBox-ImageAndInfo {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.WhiteCandidateBox-ImageAndInfo img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.WhiteCandidateBox-ImageAndInfo .candidateName {
+  color: #1fa3ff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 4px;
+  text-decoration: none;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: pre-wrap;
+}
+.WhiteCandidateBox-ImageAndInfo .candidatePosition {
+  color: #929292;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 4px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: pre-wrap;
+}
+.WhiteCandidateBox-ImageAndInfo .candidateLocation {
+  color: #929292;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: pre-wrap;
+}
+.WhiteCandidateBox-WhiteBoxesInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.WhiteCandidateBox-WhiteBoxesInfo .whiteBoxInfoItem {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 4px 17px 0px rgba(180, 180, 180, 0.16);
+  min-height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 9px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+.WhiteCandidateBox-WhiteBoxesInfo .likes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+.WhiteCandidateBox-WhiteBoxesInfo .likes span {
+  color: #929292;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.WhiteCandidateBox-WhiteBoxesInfo .linkedin img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+.WhiteCandidateBox-WhiteBoxesInfo .linkedin {
+  color: #0072b1;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  gap: 4px;
+}
+.WhiteCandidateBox-WhiteBoxesInfo .credits p {
+  color: #1fa3ff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.WhiteCandidateBox-WhiteBoxesInfo .credits p span {
+  color: #929292;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.WhiteCandidateBox-iconAndText {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 4px;
+}
+.WhiteCandidateBox-iconAndText label {
+  color: #181818;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: pre-wrap;
+}
+.WhiteCandidateBox-buttonsDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  position: absolute;
+  width: calc(100% - 36px);
+  bottom: 15px;
+}
+.WhiteCandidateBox.notOpenState {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.StageGreyBox-ScrollableBox.FULLVIEW .WhiteCandidateBox.notOpenState {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 300px !important;
+}
+.WhiteCandidateBox.notOpenState .spinner-border {
+  width: 65px;
+  height: 65px;
+  margin-bottom: 7px;
+  text-align: center;
+}
+.WhiteCandidateBox.notOpenState .greenText {
+  color: #469763;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.WhiteCandidateBox.notOpenState .redText {
+  color: #ef1e1e;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.WhiteCandidateBox.notOpenState .orangeText {
+  color: #f66b0e;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.WhiteCandidateBox.notOpenState .blueText {
+  color: #1fa3ff;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.WhiteCandidateBox.notOpenState .orangeText {
+  color: #f66b0e;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.StageGreyBox-EmptyInfoDiv {
+  text-align: center;
+  padding: 18px;
+}
+.StageGreyBox-EmptyInfoDiv img {
+  margin-bottom: 47px;
+}
+.StageGreyBox-EmptyInfoDiv h6 {
+  color: #c4c4c4;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.StageGreyBox-EmptyInfoDiv p {
+  color: #c4c4c4;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.createAFlowBigButton,
+.FlowTypeCard {
+  border-radius: 10px;
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  background: #fafafa;
+  height: 113px;
+  padding: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+.FlowTypeCard.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  border: 1px solid rgba(196, 196, 196, 0.5) !important;
+}
+.createAFlowBigButton:hover {
+  border: 1px solid #1fa3ff;
+  background: rgba(31, 163, 255, 0.05);
+}
+.FlowTypeCard:hover {
+  border: 1px solid #1fa3ff;
+}
+.FlowTypeCard.selected {
+  border: 1px solid #1fa3ff;
+  background: rgba(31, 163, 255, 0.05);
+}
+.createAFlowBigButton p {
+  color: #c4c4c4;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.clientModalTitle.createAFlow-specialSpacing {
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+.existingFLowButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 7px;
+  border: 1px solid rgba(196, 196, 196, 0.5);
+  background: #fafafa;
+  margin-bottom: 16px;
+  width: 100%;
+  padding: 16px 18px;
+  cursor: unset !important;
+}
+/* .existingFLowButton:hover {
+  border: 1px solid #1fa3ff;
+  background: rgba(31, 163, 255, 0.05);
+} */
+.existingFLowButton .typeAndTitle {
+  text-align: start;
+}
+.existingFLowButton .typeAndTitle .type,
+.FlowTypeCard .headerAndImage .headerText .type {
+  color: #1fa3ff;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+.existingFLowButton .typeAndTitle .title {
+  color: #181818;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.existingFLowButton .dateAndButton {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: center;
+}
+.existingFLowButton .dateAndButton .date {
+  color: #929292;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.FlowTypeCard {
+  min-height: 270px;
+  position: relative;
+  margin-bottom: 24px;
+}
+.FlowTypeCard .headerAndImage {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #8a8a8a;
+  margin-bottom: 8px;
+}
+.FlowTypeCard .headerAndImage .headerText .name {
+  color: #181818;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.FlowTypeCard .descriptiveText {
+  color: #181818;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 17px;
+}
+.creditDescription {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 5px;
+  border: 1px solid #1fa3ff;
+  background: rgba(31, 163, 255, 0.1);
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 5px 10px;
+}
+.FlowTypeCard .inputOutputBox {
+  color: #929292;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.FlowTypeCard .inputOutputBox strong {
+  color: #181818;
+  font-weight: 600;
+}
+.FlowsButton {
+  margin-top: 26px;
+}
+.queryGreyBox {
+  border-radius: 5px;
+  background: #fafafa;
+  display: inline-flex;
+  padding: 4px 7px 4px 10px;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+.queryGreyBox label {
+  color: #929292;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.queryGreyBox .Filled24Button.redLightBG {
+  width: fit-content;
+}
+.queryGreyBox .inputField-ReactSelect .css-1s2u09g-control,
+.queryGreyBox .inputField-ReactSelect .css-1pahdxg-control,
+.queryGreyBox .inputField-ReactSelect .css-1pahdxg-control:hover,
+.queryGreyBox .inputField-ReactSelect .css-1pahdxg-control:active {
+  margin-bottom: 0 !important;
+  width: 132px !important;
+  padding: 5px;
+}
+.queryGreyBox .inputField-ReactSelect .css-1s2u09g-control:after,
+.queryGreyBox .inputField-ReactSelect .css-1pahdxg-control:after {
+  right: 1px;
+}
+.queryOR {
+  color: #181818;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin-bottom: 8px;
+}
+.spacingfortabsForm {
+  margin-top: 24px;
+}
+.WhiteCandidateBox-rankingLabelDiv {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 13px;
+}
+.WhiteCandidateBox-rankingLabelDiv .rankingBadge {
+  border-radius: 22px;
+  border: 1px solid #181818;
+  background: #fff;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  color: #181818;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background-image: url(../../images/metallicShine.svg) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position-x: 3px !important;
+  background-position-y: -9px !important;
+}
+.WhiteCandidateBox-rankingLabelDiv .rankingBadge.gold {
+  border: 1px solid #e4b400;
+  background: #ffdc5b;
+}
+.WhiteCandidateBox-rankingLabelDiv .rankingBadge.silver {
+  border: 1px solid #bebebe;
+  background: #efefef;
+}
+.WhiteCandidateBox-rankingLabelDiv .rankingBadge.bronze {
+  border: 1px solid #6a3500;
+  background: #cd7f32;
+  color: #fff;
+}
+.WhiteCandidateBox-rankingLabelDiv .rankingBadge.black {
+  background: #181818;
+  color: #fff;
+}
+.WhiteCandidateBox-rankingLabelDiv .matchBadge {
+  border-radius: 22px;
+  border: 1px solid #181818;
+  background: rgba(130, 130, 130, 0.1);
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  color: #181818;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.WhiteCandidateBox-rankingLabelDiv .matchBadge.green {
+  border: 1px solid #469763;
+  background: rgba(94, 223, 140, 0.1);
+}
+.WhiteCandidateBox-rankingLabelDiv .matchBadge.yellow {
+  border: 1px solid #ffc900;
+  background: rgba(255, 201, 0, 0.1);
+}
+.WhiteCandidateBox-rankingLabelDiv .matchBadge.orange {
+  border: 1px solid #f77a27;
+  background: rgba(247, 122, 39, 0.1);
+}
+.WhiteCandidateBox-rankingLabelDiv .matchBadge.red {
+  border: 1px solid #ef1e1e;
+  background: rgba(239, 30, 30, 0.1);
+}
+.whiteBoxesInfo-likes {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 4px 17px 0px rgba(180, 180, 180, 0.16);
+  display: flex;
+  justify-content: center;
+  color: #929292;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  min-height: 32px;
+  width: 100%;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+.whiteBoxesInfo-likes-color {
+  background-color: #effcf4;
+  color: #469763;
+}
+.whiteBoxesInfo-likes img {
+  width: 16px;
+  height: 16px;
+}
+.subtitle-grey {
+  color: #929292;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 5px;
+  margin-top: 11px;
+}
+
+.noHides .WhiteCandidateBox-ImageAndInfo .candidatePosition,
+.noHides .WhiteCandidateBox-ImageAndInfo .candidateLocation,
+.noHides .WhiteCandidateBox-iconAndText label {
+  overflow: visible;
+  display: block;
+}
+.noHides .WhiteCandidateBox-buttonsDiv {
+  position: relative;
+  margin-top: 32px;
+  width: 100%;
+}
+.noHides .WhiteCandidateBox-buttonsDiv button {
+  margin-bottom: 16px;
+}
+
+.counterAlertForFlow {
+  color: #ef1e1e;
+  text-align: right;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.BlueInformativeSelectedCandidates {
+  color: #1fa3ff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.selectedCandidatesFLex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.StageGreyBox.onHoverChange:hover {
+  background: #f0f0f0;
+  box-shadow: 0px 4px 17px 0px rgba(180, 180, 180, 0.16);
+}
+.cancelSelection {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+  text-decoration: underline;
+  color: #f66b0e;
+  cursor: pointer;
+}
+.StageGreyBox-selectAllAndFilter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.FlowSelectedText {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+  color: #929292;
+}
+@media (max-width: 1240px) {
+  .WhiteCandidateBox {
+    min-height: 385px;
+  }
+  .WhiteCandidateBox-WhiteBoxesInfo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .WhiteCandidateBox-WhiteBoxesInfo div {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .StageGreyBox {
+    border-radius: 7px;
+    border: 1px solid rgba(196, 196, 196, 0.5);
+    background: #fafafa;
+    min-height: 62vh;
+  }
+
+  .StageGreyBox-ScrollableBox {
+    height: 52vh;
+  }
+}
+@media (max-width: 992px) {
+  .StageGreyBox-ScrollableBox.FULLVIEW .WhiteCandidateBox {
+    flex: 0 0 auto;
+    width: 32.2%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+  }
+  .StageGreyBox-ScrollableBox.FULLVIEW .StageGreyBox-ScrollableBox-flowBox {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    grid-gap: 10px;
+    width: 100%;
+  }
+  .StageGreyBox-EmptyInfoDiv img {
+    margin-bottom: 25px;
+  }
+  .StageGreyBox-EmptyInfoDiv h6 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .StageGreyBox-EmptyInfoDiv p {
+    font-size: 14px;
+  }
+  .WhiteCandidateBox {
+    margin-bottom: 10px;
+    padding: 25px 8px 8px 8px;
+  }
+  .StageGreyBox-ScrollableBox {
+    padding: 0 6px;
+  }
+  .StageGreyBox-titleAndMenu {
+    margin: 10px 6px;
+  }
+  .WhiteCandidateBox-ImageAndInfo img {
+    width: 30px;
+    height: 30px;
+  }
+  .WhiteCandidateBox-buttonsDiv {
+    display: block;
+    margin-top: 10px;
+  }
+  .WhiteCandidateBox-WhiteBoxesInfo {
+    display: block;
+    margin-bottom: 0;
+  }
+  .WhiteCandidateBox-WhiteBoxesInfo .likes {
+    justify-content: flex-start;
+  }
+  .WhiteCandidateBox-WhiteBoxesInfo div {
+    justify-content: flex-start;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 767px) {
+  .StageGreyBox-ScrollableBox.FULLVIEW .StageGreyBox-ScrollableBox-flowBox {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    grid-gap: 10px;
+    width: 100%;
+  }
+  .StageGreyBox-ScrollableBox.FULLVIEW .WhiteCandidateBox {
+    flex: auto;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 25px 8px 8px 8px;
+  }
+  .WhiteCandidateBox {
+    min-height: 455px;
+  }
+  .StageGreyBox-EmptyInfoDiv img {
+    margin-bottom: 15px;
+  }
+  .StageGreyBox-EmptyInfoDiv p {
+    font-size: 12px;
+  }
+  .StageGreyBox-EmptyInfoDiv h6 {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  .WhiteCandidateBox-ImageAndInfo img {
+    margin-bottom: 6px;
+  }
+  .WhiteCandidateBox-ImageAndInfo {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .jobTitleAndActions-Actions {
+    justify-content: space-between;
+    margin-top: 8px;
+  }
+  .jobTitleAndActions-titleAndDisqualified {
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .jobTitleAndActions {
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+  }
+}
+@media (max-width: 575px) {
+  .jobTitleAndActions-Actions {
+    gap: 6px;
+  }
+  .jobTitleAndActions-Actions > * {
+    font-size: 10px !important;
+  }
+  .StageGreyBox-ScrollableBox.FULLVIEW .WhiteCandidateBox.notOpenState {
+    min-width: 100% !important;
+  }
+  .StageGreyBox-ScrollableBox.FULLVIEW {
+    display: block !important;
+  }
+  .queryGreyBox label {
+    margin-bottom: 8px;
+  }
+  .queryGreyBox {
+    display: block;
+    text-align: center;
+    padding: 6px;
+  }
+  .queryGreyBox .inputField-ReactSelect .css-1s2u09g-control {
+    margin-bottom: 8px !important;
+    width: 100% !important;
+  }
+  .FlowsButton .Filled40Button {
+    margin-bottom: 8px;
+  }
+  .jobTitleAndActions-titleAndDisqualified h2 {
+    font-size: 18px;
+  }
+  .jobTitleAndActions {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .WhiteCandidateBox-ImageAndInfo img,
+  .WhiteCandidateBox-ImageAndInfo .candidateLocation,
+  .WhiteCandidateBox-ImageAndInfo .candidatePosition,
+  .WhiteCandidateBox-WhiteBoxesInfo,
+  .whiteBoxesInfo-likes,
+  .WhiteCandidateBox .subtitle-grey {
+    display: none;
+  }
+  .noHides .WhiteCandidateBox-ImageAndInfo img,
+  .noHides .WhiteCandidateBox-ImageAndInfo .candidateLocation,
+  .noHides .WhiteCandidateBox-ImageAndInfo .candidatePosition,
+  .noHides .WhiteCandidateBox-WhiteBoxesInfo,
+  .noHides .whiteBoxesInfo-likes,
+  .noHides .subtitle-grey {
+    display: block;
+  }
+  .WhiteCandidateBox {
+    min-height: fit-content;
+  }
+  .WhiteCandidateBox-buttonsDiv {
+    display: block;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+  .StageGreyBox-ScrollableBox,
+  .StageGreyBox-ScrollableBox-flowBox {
+    display: inline-flex;
+    gap: 14px;
+    min-height: 100%;
+    height: 100%;
+    align-items: center;
+  }
+  .StageGreyBox {
+    min-height: 100%;
+  }
+  .StageCol {
+    margin-bottom: 5px;
+  }
+  .WhiteCandidateBox {
+    min-width: 200px;
+  }
+  .WhiteCandidateBox {
+    min-height: 175px;
+  }
+  .StageGreyBox-ScrollableBox-flowBox .FlowTitle {
+    font-size: 10px;
+    width: 180px;
+  }
+}
